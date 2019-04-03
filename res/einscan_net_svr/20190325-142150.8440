@@ -1,0 +1,106 @@
+Log file created at: 2019/03/25 14:21:50
+Running on machine: XL-TYDQ0808
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0325 14:21:50.142519  7488 main.cpp:111] pross argc=2
+I0325 14:21:50.143021  7488 main.cpp:114] pross id param=10528
+I0325 14:21:50.143021  7488 main.cpp:116] pross id param=10528
+I0325 14:21:50.143021  7488 main.cpp:121] monitor_thr started
+I0325 14:21:50.143021  7488 main.cpp:123] monitor_thr started1
+I0325 14:21:50.143021  1452 monitor_thread.cpp:11] m_einscanproProcessID=10528start
+I0325 14:21:50.143021  7488 sketchfabmdl.cpp:79] sketchfab_init
+I0325 14:21:50.143523  7488 informationmdl.cpp:73] upload files :0
+I0325 14:21:50.143523  7488 informationmdl.cpp:86] app_name=information_uploader
+I0325 14:21:50.143523  7488 logiclayer.cpp:48] loginc started staticsize=0 priority 0
+I0325 14:21:50.144542 12472 informationmdl.cpp:130] information_init
+I0325 14:21:50.144542 12472 informationmdl.cpp:150] upload score files  count0upload_enable=0app_name=information_uploader
+I0325 14:22:50.146678 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:23:50.148162 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:24:50.149158 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:25:50.149932 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:26:50.148995 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:27:50.144119 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:28:50.150327 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:29:50.147377 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:30:50.150599 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:31:50.151638 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:32:50.146546 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:33:50.149751 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:34:50.148309 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:35:50.147905 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:36:50.147110 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:37:50.149020 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:38:50.145753 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:39:50.146301 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:40:50.148967 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:41:50.145418 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:42:50.147096 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:43:50.152657 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:44:50.146185 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:45:50.145196 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:46:50.145741 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:47:50.144227 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:48:50.145031 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:49:50.144575 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:50:50.149523 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:51:50.145716 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:52:50.147974 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:53:50.145174 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:54:50.152649 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:55:50.147327 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:56:50.146138 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:57:50.153020 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:58:50.144829 12472 informationmdl.cpp:434] cmd= 17
+I0325 14:59:50.145198 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:00:50.144420 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:01:50.145570 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:02:50.147008 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:03:50.144845 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:04:50.147269 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:05:50.145048 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:06:50.145853 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:07:50.145923 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:08:50.147297 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:09:50.147610 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:10:50.146191 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:11:50.151693 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:12:50.151237 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:13:50.144803 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:14:50.145946 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:15:50.145490 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:16:50.147497 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:17:50.144562 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:18:50.145108 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:19:50.145622 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:20:50.146888 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:21:50.149535 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:22:50.148968 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:23:50.147117 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:24:50.149863 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:25:50.143770 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:26:50.153820 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:27:50.144609 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:28:50.144961 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:29:50.148102 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:30:50.149863 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:31:50.144207 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:32:50.143790 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:33:50.147301 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:34:50.148267 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:35:50.147333 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:36:50.151366 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:37:50.148046 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:38:50.149699 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:39:50.144906 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:40:50.144209 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:41:50.147464 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:42:50.143841 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:43:50.145958 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:44:50.144861 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:45:50.144883 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:46:50.145407 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:47:50.144095 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:48:50.148314 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:49:50.150341 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:50:50.148263 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:51:50.144923 12472 informationmdl.cpp:434] cmd= 17
+I0325 15:52:50.145081 12472 informationmdl.cpp:434] cmd= 17

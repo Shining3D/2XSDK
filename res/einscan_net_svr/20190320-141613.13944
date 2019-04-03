@@ -1,0 +1,30 @@
+Log file created at: 2019/03/20 14:16:13
+Running on machine: XL-TYDQ0808
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0320 14:16:13.689519 13916 main.cpp:111] pross argc=2
+I0320 14:16:13.689519 13916 main.cpp:114] pross id param=9776
+I0320 14:16:13.689519 13916 main.cpp:116] pross id param=9776
+I0320 14:16:13.689519 13916 main.cpp:121] monitor_thr started
+I0320 14:16:13.690521 13916 main.cpp:123] monitor_thr started1
+I0320 14:16:13.690521 13916 sketchfabmdl.cpp:79] sketchfab_init
+I0320 14:16:13.690521 13916 informationmdl.cpp:73] upload files :0
+I0320 14:16:13.690521 13916 informationmdl.cpp:86] app_name=information_uploader
+I0320 14:16:13.690521 13916 logiclayer.cpp:48] loginc started staticsize=0 priority 0
+I0320 14:16:13.691524 14660 monitor_thread.cpp:11] m_einscanproProcessID=9776start
+I0320 14:16:13.691524 13476 informationmdl.cpp:130] information_init
+I0320 14:16:13.692526 13476 informationmdl.cpp:150] upload score files  count0upload_enable=0app_name=information_uploader
+I0320 14:17:13.697540 13476 informationmdl.cpp:434] cmd= 17
+I0320 14:18:13.691843 13476 informationmdl.cpp:434] cmd= 17
+I0320 14:19:13.696871 13476 informationmdl.cpp:434] cmd= 17
+I0320 14:20:13.692251 13476 informationmdl.cpp:434] cmd= 17
+I0320 14:21:13.695791 13476 informationmdl.cpp:434] cmd= 17
+I0320 14:22:13.692638 13476 informationmdl.cpp:434] cmd= 17
+I0320 14:23:13.693984 13476 informationmdl.cpp:434] cmd= 17
+I0320 14:24:13.695067 13476 informationmdl.cpp:434] cmd= 17
+I0320 14:25:13.693346 13476 informationmdl.cpp:434] cmd= 17
+I0320 14:26:13.696182 13476 informationmdl.cpp:434] cmd= 17
+I0320 14:27:13.697947 13476 informationmdl.cpp:434] cmd= 17
+I0320 14:28:13.697782 13476 informationmdl.cpp:434] cmd= 17
+I0320 14:29:13.696874 13476 informationmdl.cpp:434] cmd= 17
+I0320 14:30:13.691773 13476 informationmdl.cpp:434] cmd= 17
+I0320 14:31:13.696789 13476 informationmdl.cpp:434] cmd= 17

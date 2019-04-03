@@ -1,0 +1,17 @@
+Log file created at: 2019/03/06 13:31:01
+Running on machine: JMPC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0306 13:31:01.904608 60640 main.cpp:111] pross argc=2
+I0306 13:31:01.904608 60640 main.cpp:114] pross id param=37976
+I0306 13:31:01.904608 60640 main.cpp:116] pross id param=37976
+I0306 13:31:01.904608 60640 main.cpp:121] monitor_thr started
+I0306 13:31:01.904608 60640 main.cpp:123] monitor_thr started1
+I0306 13:31:01.904608 60640 sketchfabmdl.cpp:79] sketchfab_init
+I0306 13:31:01.904608 60640 informationmdl.cpp:73] upload files :0
+I0306 13:31:01.904608 61100 monitor_thread.cpp:11] m_einscanproProcessID=37976start
+I0306 13:31:01.904608 60640 informationmdl.cpp:86] app_name=information_uploader
+I0306 13:31:01.905603 60640 logiclayer.cpp:48] loginc started staticsize=0 priority 0
+I0306 13:31:01.905603 53928 informationmdl.cpp:130] information_init
+I0306 13:31:01.906600 53928 informationmdl.cpp:150] upload score files  count0upload_enable=0app_name=information_uploader
+I0306 13:32:01.891242 53928 informationmdl.cpp:434] cmd= 17
+I0306 13:33:01.895833 53928 informationmdl.cpp:434] cmd= 17

@@ -1,0 +1,26 @@
+Log file created at: 2019/02/12 09:32:49
+Running on machine: JMPC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0212 09:32:49.401679  8268 main.cpp:111] pross argc=2
+I0212 09:32:49.401679  8268 main.cpp:114] pross id param=10248
+I0212 09:32:49.401679  8268 main.cpp:116] pross id param=10248
+I0212 09:32:49.401679  8268 main.cpp:121] monitor_thr started
+I0212 09:32:49.401679  8268 main.cpp:123] monitor_thr started1
+I0212 09:32:49.401679  8268 sketchfabmdl.cpp:79] sketchfab_init
+I0212 09:32:49.401679  8268 informationmdl.cpp:73] upload files :0
+I0212 09:32:49.401679 16048 monitor_thread.cpp:11] m_einscanproProcessID=10248start
+I0212 09:32:49.401679  8268 informationmdl.cpp:86] app_name=information_uploader
+I0212 09:32:49.417301  8268 logiclayer.cpp:48] loginc started staticsize=0 priority 0
+I0212 09:32:49.417301  1864 informationmdl.cpp:130] information_init
+I0212 09:32:49.417301  1864 informationmdl.cpp:150] upload score files  count0upload_enable=0app_name=information_uploader
+I0212 09:33:49.414834  1864 informationmdl.cpp:434] cmd= 17
+I0212 09:34:49.410845  1864 informationmdl.cpp:434] cmd= 17
+I0212 09:35:49.417397  1864 informationmdl.cpp:434] cmd= 17
+I0212 09:36:49.418627  1864 informationmdl.cpp:434] cmd= 17
+I0212 09:37:49.428089  1864 informationmdl.cpp:434] cmd= 17
+I0212 09:38:49.435094  1864 informationmdl.cpp:434] cmd= 17
+I0212 09:39:49.423426  1864 informationmdl.cpp:434] cmd= 17
+I0212 09:40:49.422682  1864 informationmdl.cpp:434] cmd= 17
+I0212 09:41:49.433277  1864 informationmdl.cpp:434] cmd= 17
+I0212 09:42:49.429713  1864 informationmdl.cpp:434] cmd= 17
+I0212 09:43:49.438966  1864 informationmdl.cpp:434] cmd= 17

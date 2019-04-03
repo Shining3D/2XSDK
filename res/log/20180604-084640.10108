@@ -1,0 +1,4 @@
+Log file created at: 2018/06/04 08:46:40
+Running on machine: 2016-20160608NL
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0604 08:46:40.056470  9384 main.cpp:409] start the app:warning.

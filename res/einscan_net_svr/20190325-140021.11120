@@ -1,0 +1,16 @@
+Log file created at: 2019/03/25 14:00:21
+Running on machine: XL-TYDQ0808
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0325 14:00:21.756513 12920 main.cpp:111] pross argc=2
+I0325 14:00:21.756513 12920 main.cpp:114] pross id param=12424
+I0325 14:00:21.756513 12920 main.cpp:116] pross id param=12424
+I0325 14:00:21.756513 12920 main.cpp:121] monitor_thr started
+I0325 14:00:21.756513 12920 main.cpp:123] monitor_thr started1
+I0325 14:00:21.756513 12920 sketchfabmdl.cpp:79] sketchfab_init
+I0325 14:00:21.757516   116 monitor_thread.cpp:11] m_einscanproProcessID=12424start
+I0325 14:00:21.757516 12920 informationmdl.cpp:73] upload files :0
+I0325 14:00:21.757516 12920 informationmdl.cpp:86] app_name=information_uploader
+I0325 14:00:21.757516 12920 logiclayer.cpp:48] loginc started staticsize=0 priority 0
+I0325 14:00:21.757516 13372 informationmdl.cpp:130] information_init
+I0325 14:00:21.758519 13372 informationmdl.cpp:150] upload score files  count0upload_enable=0app_name=information_uploader
+I0325 14:01:21.753919 13372 informationmdl.cpp:434] cmd= 17

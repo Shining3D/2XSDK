@@ -1,0 +1,37 @@
+Log file created at: 2019/03/04 16:03:45
+Running on machine: JMPC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0304 16:03:45.702291 24560 main.cpp:111] pross argc=2
+I0304 16:03:45.702291 24560 main.cpp:114] pross id param=54028
+I0304 16:03:45.702291 24560 main.cpp:116] pross id param=54028
+I0304 16:03:45.702291 24560 main.cpp:121] monitor_thr started
+I0304 16:03:45.702291 24560 main.cpp:123] monitor_thr started1
+I0304 16:03:45.702291 24560 sketchfabmdl.cpp:79] sketchfab_init
+I0304 16:03:45.702291 56084 monitor_thread.cpp:11] m_einscanproProcessID=54028start
+I0304 16:03:45.702291 24560 informationmdl.cpp:73] upload files :0
+I0304 16:03:45.703286 24560 informationmdl.cpp:86] app_name=information_uploader
+I0304 16:03:45.704285 24560 logiclayer.cpp:48] loginc started staticsize=0 priority 0
+I0304 16:03:45.704285 53028 informationmdl.cpp:130] information_init
+I0304 16:03:45.704285 53028 informationmdl.cpp:150] upload score files  count0upload_enable=0app_name=information_uploader
+I0304 16:04:45.707880 53028 informationmdl.cpp:434] cmd= 17
+I0304 16:05:45.706518 53028 informationmdl.cpp:434] cmd= 17
+I0304 16:06:45.706120 53028 informationmdl.cpp:434] cmd= 17
+I0304 16:07:45.705723 53028 informationmdl.cpp:434] cmd= 17
+I0304 16:08:45.707320 53028 informationmdl.cpp:434] cmd= 17
+I0304 16:09:45.704927 53028 informationmdl.cpp:434] cmd= 17
+I0304 16:10:45.704529 53028 informationmdl.cpp:434] cmd= 17
+I0304 16:11:45.706128 53028 informationmdl.cpp:434] cmd= 17
+I0304 16:12:45.704732 53028 informationmdl.cpp:434] cmd= 17
+I0304 16:13:45.706329 53028 informationmdl.cpp:434] cmd= 17
+I0304 16:14:45.705932 53028 informationmdl.cpp:434] cmd= 17
+I0304 16:15:45.704537 53028 informationmdl.cpp:434] cmd= 17
+I0304 16:16:45.706133 53028 informationmdl.cpp:434] cmd= 17
+I0304 16:17:45.705736 53028 informationmdl.cpp:434] cmd= 17
+I0304 16:18:45.707332 53028 informationmdl.cpp:434] cmd= 17
+I0304 16:19:45.703943 53028 informationmdl.cpp:434] cmd= 17
+I0304 16:20:45.706537 53028 informationmdl.cpp:434] cmd= 17
+I0304 16:21:45.706203 53028 informationmdl.cpp:434] cmd= 17
+I0304 16:22:45.705807 53028 informationmdl.cpp:434] cmd= 17
+I0304 16:23:45.705408 53028 informationmdl.cpp:434] cmd= 17
+I0304 16:24:45.705010 53028 informationmdl.cpp:434] cmd= 17
+I0304 16:25:45.710597 53028 informationmdl.cpp:434] cmd= 17

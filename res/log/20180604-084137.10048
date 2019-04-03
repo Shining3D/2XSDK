@@ -1,0 +1,4 @@
+Log file created at: 2018/06/04 08:41:37
+Running on machine: 2016-20160608NL
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0604 08:41:37.730468 10168 main.cpp:253] langconfig.ini file not exist
