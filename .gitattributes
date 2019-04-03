@@ -155,3 +155,5 @@ Qt5MultimediaQuick_p.dll filter=lfs diff=lfs merge=lfs -text
 Qt5MultimediaWidgets.dll filter=lfs diff=lfs merge=lfs -text
 Qt5QuickTest.dll filter=lfs diff=lfs merge=lfs -text
 ot20-OpenThreads.dll filter=lfs diff=lfs merge=lfs -text
+res/Einscan-pro/200x150/lookupTable.dat filter=lfs diff=lfs merge=lfs -text
+res/einscan-plus/200x150/lookupTable.dat filter=lfs diff=lfs merge=lfs -text
