@@ -115,7 +115,7 @@
 		<isTexDebugOutput>0</isTexDebugOutput>
 		<wholeDataUpdataRata>10</wholeDataUpdataRata>
 		<scan_marker_type>0</scan_marker_type>
-		<PointDistF>1.89999998</PointDistF>
+		<PointDistF>1</PointDistF>
 		<PointDistF_High_Set>0.5</PointDistF_High_Set>
 		<PointDistF_High_Set_plus>0.7</PointDistF_High_Set_plus>
 		<PointDistF_Mid_Set>1.0</PointDistF_Mid_Set>
@@ -485,7 +485,7 @@
 		<cam_width>1280</cam_width>
 		<cam_height>1024</cam_height>
 		<do_guide>1</do_guide>
-		<do_test_mode>false</do_test_mode>
+		<do_test_mode>true</do_test_mode>
 		<device_state>0</device_state>
 		<model_fn>31008</model_fn>
 		<model_vn>15506</model_vn>
@@ -745,7 +745,7 @@
 		<app_start_time/>
 	</information>
 	<last_save_path/>
-	<last_prj_save_path>C:/Users/Administrator/Desktop/abc/xxx/</last_prj_save_path>
+	<last_prj_save_path>D:\test_sdk\</last_prj_save_path>
 	<last_prj_open_path/>
 	<marker_point_path>F:/ppppp.p3</marker_point_path>
 	<last_marker_point_path/>
@@ -755,7 +755,7 @@
 	<3dfile_type>0</3dfile_type>
 	<3dfile_path/>
 </config>
-<state__scan>0</state__scan>
+<state__scan>1</state__scan>
 <3dker>
 	<!--host-->
 	<host>http://www.3dker.com/</host>
