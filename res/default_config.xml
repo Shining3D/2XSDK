@@ -114,8 +114,8 @@
 		<ifShowFailData>1</ifShowFailData>
 		<isTexDebugOutput>0</isTexDebugOutput>
 		<wholeDataUpdataRata>10</wholeDataUpdataRata>
-		<scan_marker_type>0</scan_marker_type>
-		<PointDistF>1.89999998</PointDistF>
+		<scan_marker_type>1</scan_marker_type>
+		<PointDistF>1</PointDistF>
 		<PointDistF_High_Set>0.5</PointDistF_High_Set>
 		<PointDistF_High_Set_plus>0.7</PointDistF_High_Set_plus>
 		<PointDistF_Mid_Set>1.0</PointDistF_Mid_Set>
@@ -135,7 +135,7 @@
 		<rapid_AlignLimitNum>4000</rapid_AlignLimitNum>
 		<UseDepthBuffer>1</UseDepthBuffer>
 		<ui_dpi_scale>1</ui_dpi_scale>
-		<GlobalOptimization>1</GlobalOptimization>
+		<GlobalOptimization>0</GlobalOptimization>
 		<maxOptFrameNumber>60000</maxOptFrameNumber>
 		<memory_need_per_frame>2</memory_need_per_frame>
 		<total_frame_count>0</total_frame_count>
@@ -162,7 +162,7 @@
 		<rapid_special>false</rapid_special>
 	</Speckle_config>
 	<stripe_config>
-		<turntable_times>8</turntable_times>
+		<turntable_times>0</turntable_times>
 		<turntable_angle>45</turntable_angle>
 		<turntable_ver_angle>3</turntable_ver_angle>
 		<turntable_ver_times>4</turntable_ver_times>
@@ -207,7 +207,7 @@
 		<hole_nodes_num>15</hole_nodes_num>
 		<small_region>20</small_region>
 		<process_edge_length>3</process_edge_length>
-		<current_epo_radio>1</current_epo_radio>
+		<current_epo_radio>0</current_epo_radio>
 		<need_expo_times>2</need_expo_times>
 		<double_exposure_0>4.15</double_exposure_0>
 		<double_exposure_1>12.45</double_exposure_1>
@@ -222,10 +222,10 @@
 		<double_gain_4>1</double_gain_4>
 		<double_gain_5>1</double_gain_5>
 		<group_featue>1</group_featue>
-		<turn_align_type>3</turn_align_type>
+		<turn_align_type>-1</turn_align_type>
 		<mesh_sharp_iter>3</mesh_sharp_iter>
 		<s_bright_show>0</s_bright_show>
-		<last_turn_align_type>3</last_turn_align_type>
+		<last_turn_align_type>-1</last_turn_align_type>
 		<color_camera_count>0</color_camera_count>
 		<scan_use_color_camera>0</scan_use_color_camera>
 		<color_mode>0</color_mode>
@@ -510,11 +510,11 @@
 		<fill_hole_plaint>false</fill_hole_plaint>
 		<fill_hole_rings_num>3</fill_hole_rings_num>
 		<fill_hole_perimeter>80</fill_hole_perimeter>
-		<mesh_poss_type>1</mesh_poss_type>
+		<mesh_poss_type>0</mesh_poss_type>
 		<tex_show_type>0</tex_show_type>
 		<import_marker_point>0</import_marker_point>
 		<device_type_name>pro</device_type_name>
-		<color_camera>0</color_camera>
+		<color_camera>1</color_camera>
 		<save_type_p3>false</save_type_p3>
 		<log_remainday>3</log_remainday>
 		<sleep_time_>100</sleep_time_>
@@ -561,7 +561,7 @@
 		<have_ir_device>0</have_ir_device>
 		<copy_show_user_guid>1</copy_show_user_guid>
 		<hight_quality_texture>1</hight_quality_texture>
-		<marker_count>1</marker_count>
+		<marker_count>0</marker_count>
 		<use_ir>1</use_ir>
 		<use_tritop>0</use_tritop>
 		<gdaonfig>0</gdaonfig>
@@ -590,7 +590,7 @@
 		<is2X>false</is2X>
 		<have_texture_camera>0</have_texture_camera>
 		<r2_actived>0</r2_actived>
-		<use_save_mesh>false</use_save_mesh>
+		<use_save_mesh>true</use_save_mesh>
 		<isCN>false</isCN>
 		<isCH>false</isCH>
 	</common_para_config>
@@ -736,7 +736,7 @@
 		<gray_gain_18>510</gray_gain_18>
 		<gray_expo_18>9.15</gray_expo_18>
 	</speckle_cam_para_config>
-	<savepath>C:/Users/Jimmy/Desktop/Scan</savepath>
+	<savepath>D:\test_sdk\rapid\2xp\11_new</savepath>
 	<project_path/>
 	<information>
 		<pointcount>0</pointcount>
@@ -745,7 +745,7 @@
 		<app_start_time/>
 	</information>
 	<last_save_path/>
-	<last_prj_save_path>C:/Users/Administrator/Desktop/abc/xxx/</last_prj_save_path>
+	<last_prj_save_path>D:/test_sdk/11/</last_prj_save_path>
 	<last_prj_open_path/>
 	<marker_point_path>F:/ppppp.p3</marker_point_path>
 	<last_marker_point_path/>
@@ -755,7 +755,7 @@
 	<3dfile_type>0</3dfile_type>
 	<3dfile_path/>
 </config>
-<state__scan>0</state__scan>
+<state__scan>1</state__scan>
 <3dker>
 	<!--host-->
 	<host>http://www.3dker.com/</host>

@@ -1,0 +1,10 @@
+Set Turntable Type
+|||||||| InitializeLog >>>>>>>>>>>>>>>>>
+Open Turntable Failed
+Goto Initialize Turntable
+Init Turntable Failed
+Set Turntable Type
+|||||||| InitializeLog >>>>>>>>>>>>>>>>>
+Open Turntable Failed
+Goto Initialize Turntable
+Init Turntable Failed
