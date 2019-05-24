@@ -1,0 +1,98 @@
+Log file created at: 2019/05/24 15:08:27
+Running on machine: DESKTOP-DIRKOH1
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0524 15:08:27.114923 16092 main.cpp:61] pross id param=14140
+I0524 15:08:27.115919 16092 main.cpp:63] pross id param=14140
+I0524 15:08:27.115919 16092 main.cpp:68] monitor_thr started
+I0524 15:08:27.120908 15348 monitor_thread.cpp:11] m_einscanproProcessID=14140start
+I0524 15:08:27.121902 16092 scanservice.cpp:47] ScanService::ScanService constuct
+I0524 15:08:27.133872 16092 scanservice.cpp:91] ScanService::ScanService resetConfig
+I0524 15:08:27.149796 16092 scanservice.cpp:116] video memory create ret=1
+I0524 15:08:27.149796 16092 scanservice.cpp:116] video memory create ret=1
+I0524 15:08:27.150794 16092 scanservice.cpp:116] video memory create ret=1
+I0524 15:08:27.150794 16092 scanservice.cpp:116] video memory create ret=1
+I0524 15:08:27.201658 16092 app.cpp:678] currentBrightness stripe_scan_type=0
+I0524 15:08:27.201658 16092 app.cpp:869] deling 913 10.7
+I0524 15:08:27.201658 16092 scanservice.cpp:647] scanStatus=3 m_scanner==0
+I0524 15:08:27.201658 16092 scanservice.cpp:1049] isInternal ret=1
+I0524 15:08:30.445987 16092 scanservice.cpp:1021] checkDevice
+I0524 15:08:30.445987 16092 app.cpp:466] sn3DHandiSync::GetCamerasInformation--test code
+I0524 15:08:30.445987 16092 sn3DHandiSyncControl.cpp:32] sn3DHandiSync version: 1.0.2.3
+I0524 15:08:33.168360 16092 app.cpp:468]  tmpRetVal27
+I0524 15:08:33.168360 16092 app.cpp:469]  GetCamerasInformation end device_cam_connect_2camera_count_ 2
+I0524 15:08:33.168360 16092 app.cpp:479] bColor1:0
+I0524 15:08:33.168360 16092 app.cpp:524] exchange device serial number(color):
+I0524 15:08:33.168360 16092 app.cpp:567]  check_Connect_device_camera find color camera
+I0524 15:08:33.168360 16092 app.cpp:598]  GetCamerasInformation end device_cam_connect_1device_color_cam_connect_ 1
+I0524 15:08:33.321962 16092 PhysicalCameraThread.cpp:209] IsConnectOnU3 ReleaseCamera start
+I0524 15:08:35.329594 16092 PhysicalCameraThread.cpp:211] IsConnectOnU3 ReleaseCamera end
+I0524 15:08:35.329594 16092 StripeSync.cpp:31] CStripeSync::~CStripeSync  delete image
+I0524 15:08:35.331604 16092 StripeSync.cpp:53] CStripeSync::~CStripeSync  delete event
+I0524 15:08:35.570948 16092 app.cpp:604] retValue=0is_usb3_=1
+I0524 15:08:35.571945 16092 IShotSync.cpp:231] Enter InitProjector In IShotSync
+I0524 15:08:36.773735 16092 app.cpp:114] tmpRetVal=7version=2X V106 132EN
+I0524 15:08:36.773735 16092 app.cpp:118] pos=-1string::npos=18446744073709551615
+I0524 15:08:36.773735 16092 app.cpp:122] pos=0string::npos=18446744073709551615
+I0524 15:08:36.773735 16092 app.cpp:126] pos=-1string::npos=18446744073709551615
+I0524 15:08:36.773735 16092 app.cpp:130] pos=-1string::npos=18446744073709551615
+I0524 15:08:36.773735 16092 app.cpp:132] isExpress=0is2X 1isXP 0isCH 0
+I0524 15:08:36.773735 16092 scanservice.cpp:345] isCH=0
+I0524 15:08:36.773735 16092 scanservice.cpp:1049] isInternal ret=0
+I0524 15:08:36.777721 16092 scanservice.cpp:1023] checkDevice connected=1
+I0524 15:08:36.777721 16092 scanservice.cpp:1029] testGpu start
+I0524 15:08:37.136762 16092 scan_sdk_export.cpp:118] init_speckle  gpu test exception
+I0524 15:08:37.137729 16092 scanservice.cpp:1031] ScanService::checkDevice retTestGpu=0
+I0524 15:08:39.110457 16092 scanservice.cpp:1650] enterProCali 
+I0524 15:08:39.141407  6812 scanservice.cpp:4427] beginEnter  =1
+I0524 15:08:39.141407  6812 state_pro_calibrate_scan.cpp:119] enter calibrate: info.
+I0524 15:08:39.242138  6812 pro_calibrate_scan.cpp:3953] have color camera
+I0524 15:08:39.242138  6812 pro_calibrate_scan.cpp:3125] deling start_camera_norm start!
+I0524 15:08:39.243103  6812 pro_calibrate_scan.cpp:3162]  sn3DHandiSync::ConnectDevice   ------:2
+I0524 15:08:39.243103  6812 IShotSync.cpp:231] Enter InitProjector In IShotSync
+I0524 15:08:41.971971  6812 pro_calibrate_scan.cpp:3257]  g_cameraCount= 3
+I0524 15:08:43.042124  6812 state_pro_calibrate_scan.cpp:125] start_device ret=0
+I0524 15:08:43.042124  6812 scanservice.cpp:4436] finishEnter result=1errCode=0haveColorCam=1
+I0524 15:08:43.042124  6812 scanservice.cpp:4461] finishEnter result333=1errCode=0haveColorCam=1
+I0524 15:08:43.042124  6812 scanservice.cpp:4468] finishEnter result222=1errCode=0haveColorCam=1
+I0524 15:08:43.042124  6812 scanservice.cpp:4475] finishEnter result000=1errCode=0haveColorCam=1
+I0524 15:08:43.043128  6812 app.cpp:876] deling 913 20.5
+I0524 15:08:43.043128  6812 app.cpp:678] currentBrightness stripe_scan_type=0
+I0524 15:08:43.043128  6812 scanservice.cpp:4502] finishEnter result111=1errCode=0haveColorCam=1
+I0524 15:08:43.043128 16092 app.cpp:876] deling 913 20.5
+I0524 15:08:43.043128 16092 app.cpp:678] currentBrightness stripe_scan_type=0
+I0524 15:09:43.236867  6796 pro_calibrate_scan.cpp:1950] save_calib_files ret= 0
+I0524 15:09:43.236867  6796 pro_calibrate_scan.cpp:1843] copy_folder file=res\einscan-pro\200x150\destPath=res\einscan-pro\back_up\
+I0524 15:09:44.815049  6796 pro_calibrate_scan.cpp:2487] camera_calibrate_handheld   calib_path_:res\einscan-provecImageL.size()=25
+I0524 15:10:09.314019  6796 pro_calibrate_scan.cpp:2579] camera_calibrate_handheld   imageNum:24
+I0524 15:10:53.633292  6796 pro_calibrate_scan.cpp:2661] end sn3DCalibrationNS::sn3D112Calibrate:  24
+I0524 15:10:54.412155  6796 pro_calibrate_scan.cpp:2746] end sn3DCreateUndistortTable:  24
+I0524 15:11:26.114102  6796 pro_calibrate_scan.cpp:2766] camera_calibrate_handheld   m_refCameraCaliSuccss : 1
+I0524 15:11:26.114102  6796 pro_calibrate_scan.cpp:2768] end sn3DRectify2UnrectifyTransformation:  24
+I0524 15:11:26.378501  6796 pro_calibrate_scan.cpp:2821] end calibrate_all_camera_handheld2:  24
+I0524 15:11:26.403484  6796 pro_calibrate_scan.cpp:1908] clear_back_files 0 
+I0524 15:11:26.403484  6796 pro_calibrate_scan.cpp:1909]  clear_back_files backup_dir file=res\einscan-pro\back_up\
+I0524 15:11:26.404435  6796 pro_calibrate_scan.cpp:1931]  clear_back_files delete file ret=1
+I0524 15:11:26.404435  6796 pro_calibrate_scan.cpp:1931]  clear_back_files delete file ret=1
+I0524 15:11:26.405433  6796 pro_calibrate_scan.cpp:1931]  clear_back_files delete file ret=1
+I0524 15:11:26.405433  6796 pro_calibrate_scan.cpp:1931]  clear_back_files delete file ret=1
+I0524 15:11:26.406431  6796 pro_calibrate_scan.cpp:1931]  clear_back_files delete file ret=1
+I0524 15:11:26.415453  6796 pro_calibrate_scan.cpp:1931]  clear_back_files delete file ret=1
+I0524 15:11:26.415453  6796 pro_calibrate_scan.cpp:1931]  clear_back_files delete file ret=1
+I0524 15:11:26.415453  6796 pro_calibrate_scan.cpp:1931]  clear_back_files delete file ret=1
+I0524 15:11:26.415453  6796 pro_calibrate_scan.cpp:1931]  clear_back_files delete file ret=1
+I0524 15:11:26.415453  6796 pro_calibrate_scan.cpp:1931]  clear_back_files delete file ret=1
+I0524 15:11:26.417448  6796 pro_calibrate_scan.cpp:1931]  clear_back_files delete file ret=1
+I0524 15:11:26.417448  6796 pro_calibrate_scan.cpp:1931]  clear_back_files delete file ret=1
+I0524 15:11:26.417448  6796 pro_calibrate_scan.cpp:1931]  clear_back_files delete file ret=1
+I0524 15:11:26.418396  6796 pro_calibrate_scan.cpp:1931]  clear_back_files delete file ret=1
+I0524 15:11:26.418396  6796 pro_calibrate_scan.cpp:1931]  clear_back_files delete file ret=1
+I0524 15:11:26.418396  6796 pro_calibrate_scan.cpp:1931]  clear_back_files delete file ret=1
+I0524 15:11:26.418396  6796 pro_calibrate_scan.cpp:1815] end pro_calibration::calibration_progress ok
+I0524 15:11:26.531234  6796 scanservice.cpp:4600] finishCompute currentCalibType=0result=0error=0.0330456
+I0524 15:11:38.256860 16092 pro_calibrate_scan.cpp:1976] pro_calibration::shift_state1
+I0524 15:11:38.422499 16092 pro_calibrate_scan.cpp:2130] shift pro_calibrate_sate_hd 
+I0524 15:11:38.422499 16092 scanservice.cpp:4516] finishChangeCalibrateType=1
+I0524 15:15:05.910918 16092 scanservice.cpp:1661] exitProCali 
+I0524 15:15:05.910918  8908 scanservice.cpp:4625] beginExit AAT_ENTER_CALI=1
+I0524 15:15:05.911914  8908 pro_calibrate_scan.cpp:3849] begin exit calibrate: info.
+I0524 15:15:05.938871  8908 pro_calibrate_scan.cpp:3884] exit calib  DisConnectDevice
