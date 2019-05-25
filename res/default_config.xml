@@ -114,7 +114,7 @@
 		<ifShowFailData>1</ifShowFailData>
 		<isTexDebugOutput>0</isTexDebugOutput>
 		<wholeDataUpdataRata>10</wholeDataUpdataRata>
-		<scan_marker_type>1</scan_marker_type>
+		<scan_marker_type>0</scan_marker_type>
 		<PointDistF>1</PointDistF>
 		<PointDistF_High_Set>0.5</PointDistF_High_Set>
 		<PointDistF_High_Set_plus>0.7</PointDistF_High_Set_plus>
@@ -138,7 +138,7 @@
 		<GlobalOptimization>0</GlobalOptimization>
 		<maxOptFrameNumber>60000</maxOptFrameNumber>
 		<memory_need_per_frame>2</memory_need_per_frame>
-		<total_frame_count>0</total_frame_count>
+		<total_frame_count>26</total_frame_count>
 		<AutoSaveDepthBuffer>0</AutoSaveDepthBuffer>
 		<AutoSaveFrameSpan>100000</AutoSaveFrameSpan>
 		<use_gradthread_norm>1</use_gradthread_norm>
@@ -514,7 +514,7 @@
 		<tex_show_type>0</tex_show_type>
 		<import_marker_point>0</import_marker_point>
 		<device_type_name>pro</device_type_name>
-		<color_camera>1</color_camera>
+		<color_camera>0</color_camera>
 		<save_type_p3>false</save_type_p3>
 		<log_remainday>3</log_remainday>
 		<sleep_time_>100</sleep_time_>
@@ -745,7 +745,7 @@
 		<app_start_time/>
 	</information>
 	<last_save_path/>
-	<last_prj_save_path>D:/test_sdk/11/</last_prj_save_path>
+	<last_prj_save_path>D:/test_sdk/rapid/</last_prj_save_path>
 	<last_prj_open_path/>
 	<marker_point_path>F:/ppppp.p3</marker_point_path>
 	<last_marker_point_path/>

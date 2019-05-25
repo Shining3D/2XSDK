@@ -1,0 +1,48 @@
+Log file created at: 2019/05/25 12:57:08
+Running on machine: DESKTOP-DIRKOH1
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0525 12:57:08.018059  8308 main.cpp:61] pross id param=15604
+I0525 12:57:08.019057  8308 main.cpp:63] pross id param=15604
+I0525 12:57:08.019057  8308 main.cpp:68] monitor_thr started
+I0525 12:57:08.019057 10856 monitor_thread.cpp:11] m_einscanproProcessID=15604start
+I0525 12:57:08.021051  8308 scanservice.cpp:47] ScanService::ScanService constuct
+I0525 12:57:08.034040  8308 scanservice.cpp:91] ScanService::ScanService resetConfig
+I0525 12:57:08.039026  8308 scanservice.cpp:116] video memory create ret=1
+I0525 12:57:08.039026  8308 scanservice.cpp:116] video memory create ret=1
+I0525 12:57:08.124773  8308 scanservice.cpp:116] video memory create ret=1
+I0525 12:57:08.124773  8308 scanservice.cpp:116] video memory create ret=1
+I0525 12:57:09.884071  8308 app.cpp:678] currentBrightness stripe_scan_type=0
+I0525 12:57:09.884071  8308 app.cpp:876] deling 913 20.5
+I0525 12:57:09.884071  8308 scanservice.cpp:647] scanStatus=3 m_scanner==0
+I0525 12:57:09.884071  8308 scanservice.cpp:1049] isInternal ret=0
+I0525 12:57:14.177623  8308 scanservice.cpp:1021] checkDevice
+I0525 12:57:14.177623  8308 app.cpp:466] sn3DHandiSync::GetCamerasInformation--test code
+I0525 12:57:14.177623  8308 sn3DHandiSyncControl.cpp:32] sn3DHandiSync version: 1.0.2.3
+I0525 12:57:14.259407  8308 app.cpp:468]  tmpRetVal07
+I0525 12:57:14.259407  8308 app.cpp:469]  GetCamerasInformation end device_cam_connect_0camera_count_ 0
+I0525 12:57:14.259407  8308 app.cpp:539] un_exchange device serial number(color):
+I0525 12:57:14.259407  8308 app.cpp:598]  GetCamerasInformation end device_cam_connect_0device_color_cam_connect_ 0
+I0525 12:57:14.263363  8308 scanservice.cpp:1023] checkDevice connected=0
+I0525 12:57:14.263363  8308 scanservice.cpp:1029] testGpu start
+I0525 12:57:14.498733  8308 scan_sdk_export.cpp:118] init_speckle  gpu test exception
+I0525 12:57:14.498733  8308 scanservice.cpp:1031] ScanService::checkDevice retTestGpu=0
+I0525 12:57:15.107106  8308 scanservice.cpp:1650] enterProCali 
+I0525 12:57:15.107106 14408 scanservice.cpp:4427] beginEnter  =1
+I0525 12:57:15.108104 14408 state_pro_calibrate_scan.cpp:119] enter calibrate: info.
+I0525 12:57:15.118116 14408 state_pro_calibrate_scan.cpp:125] start_device ret=-7
+I0525 12:57:15.118116 14408 scanservice.cpp:4436] finishEnter result=0errCode=-7haveColorCam=1
+I0525 12:57:15.118116 14408 scanservice.cpp:4461] finishEnter result333=0errCode=-7haveColorCam=1
+I0525 12:57:15.118116 14408 scanservice.cpp:4468] finishEnter result222=0errCode=-7haveColorCam=1
+I0525 12:57:15.118116 14408 scanservice.cpp:4475] finishEnter result000=0errCode=-7haveColorCam=1
+I0525 12:57:15.119107 14408 app.cpp:876] deling 913 20.5
+I0525 12:57:15.119107 14408 app.cpp:678] currentBrightness stripe_scan_type=0
+I0525 12:57:15.119107 14408 scanservice.cpp:4502] finishEnter result111=0errCode=-7haveColorCam=1
+I0525 12:57:15.119107  8308 app.cpp:876] deling 913 20.5
+I0525 12:57:15.119107  8308 app.cpp:678] currentBrightness stripe_scan_type=0
+I0525 12:57:15.119107  8308 state_pro_calibrate_scan.cpp:23] leave calibrate: info.
+I0525 12:57:15.119107  8308 pro_calibrate_scan.cpp:256] m_myThreadCalibrate_->join(): info.
+I0525 12:57:15.119107  8308 pro_calibrate_scan.cpp:273] m_myThreadShowImage->join(): info.
+I0525 12:57:15.119107  8308 pro_calibrate_scan.cpp:336] m_snapLock: info.
+I0525 12:57:15.120072  8308 pro_calibrate_scan.cpp:351] release_cam_mem: info.
+I0525 12:57:15.120072  8308 pro_calibrate_scan.cpp:357] delete pBigCircle3D : info.
+I0525 12:57:15.120072  8308 pro_calibrate_scan.cpp:363] delete pCaliLinesRealTime : info.

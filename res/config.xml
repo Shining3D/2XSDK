@@ -514,7 +514,7 @@
 		<tex_show_type>0</tex_show_type>
 		<import_marker_point>0</import_marker_point>
 		<device_type_name>pro</device_type_name>
-		<color_camera>1</color_camera>
+		<color_camera>0</color_camera>
 		<save_type_p3>false</save_type_p3>
 		<log_remainday>3</log_remainday>
 		<sleep_time_>100</sleep_time_>
@@ -755,7 +755,7 @@
 	<3dfile_type>0</3dfile_type>
 	<3dfile_path/>
 </config>
-<state__scan>0</state__scan>
+<state__scan>1</state__scan>
 <3dker>
 	<!--host-->
 	<host>http://www.3dker.com/</host>
