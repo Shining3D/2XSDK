@@ -138,7 +138,7 @@
 		<GlobalOptimization>0</GlobalOptimization>
 		<maxOptFrameNumber>60000</maxOptFrameNumber>
 		<memory_need_per_frame>2</memory_need_per_frame>
-		<total_frame_count>26</total_frame_count>
+		<total_frame_count>19</total_frame_count>
 		<AutoSaveDepthBuffer>0</AutoSaveDepthBuffer>
 		<AutoSaveFrameSpan>100000</AutoSaveFrameSpan>
 		<use_gradthread_norm>1</use_gradthread_norm>
@@ -154,7 +154,7 @@
 		<rapid_flag>false</rapid_flag>
 		<grayImageSample>4</grayImageSample>
 		<ePointDistF>1.0</ePointDistF>
-		<rapid_flag_copy>false</rapid_flag_copy>
+		<rapid_flag_copy>true</rapid_flag_copy>
 		<ProjectorBrightness2x>15</ProjectorBrightness2x>
 		<rapid_data_save>false</rapid_data_save>
 		<rapid_reload>0</rapid_reload>
@@ -184,14 +184,14 @@
 		<feature_radius>1</feature_radius>
 		<simp_ratio>1</simp_ratio>
 		<hough_bin_size>0.3</hough_bin_size>
-		<need_mesh_smooth>0</need_mesh_smooth>
+		<need_mesh_smooth>1</need_mesh_smooth>
 		<mesh_smooth_iteration>2</mesh_smooth_iteration>
 		<mesh_smooth_iteration_min>1</mesh_smooth_iteration_min>
 		<mesh_smooth_iteration_max>5</mesh_smooth_iteration_max>
 		<mesh_smooth_move_dist>0.10000000000000001</mesh_smooth_move_dist>
 		<remain_num>2000000</remain_num>
 		<boundary_weight>1.0</boundary_weight>
-		<need_mesh_sharp>0</need_mesh_sharp>
+		<need_mesh_sharp>1</need_mesh_sharp>
 		<mesh_sharp_sigma>0.01</mesh_sharp_sigma>
 		<mesh_sharp_normal_iter>1</mesh_sharp_normal_iter>
 		<mesh_sharp_vertex_iter>5</mesh_sharp_vertex_iter>
@@ -222,10 +222,10 @@
 		<double_gain_4>1</double_gain_4>
 		<double_gain_5>1</double_gain_5>
 		<group_featue>1</group_featue>
-		<turn_align_type>-1</turn_align_type>
+		<turn_align_type>2</turn_align_type>
 		<mesh_sharp_iter>3</mesh_sharp_iter>
 		<s_bright_show>0</s_bright_show>
-		<last_turn_align_type>-1</last_turn_align_type>
+		<last_turn_align_type>2</last_turn_align_type>
 		<color_camera_count>0</color_camera_count>
 		<scan_use_color_camera>0</scan_use_color_camera>
 		<color_mode>0</color_mode>
@@ -464,7 +464,7 @@
 		<LbScale>1</LbScale>
 	</desk2plus_config>
 	<common_para_config>
-		<show_ple_id>CP-20180059J20-V200</show_ple_id>
+		<show_ple_id>CP-20180098J14-V300</show_ple_id>
 		<language_type>1033</language_type>
 		<scan_type>2</scan_type>
 		<stripe_scan_type>0</stripe_scan_type>
@@ -487,12 +487,12 @@
 		<do_guide>1</do_guide>
 		<do_test_mode>false</do_test_mode>
 		<device_state>0</device_state>
-		<model_fn>31008</model_fn>
-		<model_vn>15506</model_vn>
-		<model_x>32.812408447265625</model_x>
-		<model_y>41.610031127929688</model_y>
-		<model_z>25.4671630859375</model_z>
-		<mesh_sample_edit>100</mesh_sample_edit>
+		<model_fn>200848</model_fn>
+		<model_vn>101424</model_vn>
+		<model_x>423.70361328125</model_x>
+		<model_y>408</model_y>
+		<model_z>482.0126953125</model_z>
+		<mesh_sample_edit>0</mesh_sample_edit>
 		<mesh_resize_edit>100</mesh_resize_edit>
 		<need_mesh_sample>1</need_mesh_sample>
 		<need_mesh_resize>0</need_mesh_resize>
@@ -509,7 +509,7 @@
 		<fill_hole_marker_perimeter>15</fill_hole_marker_perimeter>
 		<fill_hole_plaint>false</fill_hole_plaint>
 		<fill_hole_rings_num>3</fill_hole_rings_num>
-		<fill_hole_perimeter>80</fill_hole_perimeter>
+		<fill_hole_perimeter>0</fill_hole_perimeter>
 		<mesh_poss_type>0</mesh_poss_type>
 		<tex_show_type>0</tex_show_type>
 		<import_marker_point>0</import_marker_point>
@@ -520,7 +520,7 @@
 		<sleep_time_>100</sleep_time_>
 		<sleep_stime_>400</sleep_stime_>
 		<show_s_id>0</show_s_id>
-		<device_sub_type>1</device_sub_type>
+		<device_sub_type>2</device_sub_type>
 		<poss_mesh_for_print>0</poss_mesh_for_print>
 		<fill_hole_marker_dis>4.5</fill_hole_marker_dis>
 		<norm_dot_prod_thr>0.0</norm_dot_prod_thr>
@@ -536,7 +536,7 @@
 		<camera_right_scale>1</camera_right_scale>
 		<3dprint>0</3dprint>
 		<flag_fast_calibrate>0</flag_fast_calibrate>
-		<current_calibrate>0</current_calibrate>
+		<current_calibrate>1</current_calibrate>
 		<first_use>1</first_use>
 		<save_type_3mf>false</save_type_3mf>
 		<3dker_national_link>http://www.einscan.com</3dker_national_link>
@@ -587,16 +587,17 @@
 		<show_prime_video>0</show_prime_video>
 		<modul_ex_ple_left_right/>
 		<modul_ex_ple_right_left/>
-		<is2X>false</is2X>
+		<is2X>true</is2X>
 		<have_texture_camera>0</have_texture_camera>
 		<r2_actived>0</r2_actived>
 		<use_save_mesh>true</use_save_mesh>
 		<isCN>false</isCN>
-		<isCH>false</isCH>
+		<isCH>true</isCH>
+		<enable_minus_plus_without_double_click>true</enable_minus_plus_without_double_click>
 	</common_para_config>
 	<stripe_cam_para_config>
 		<max_step>16</max_step>
-		<current_step_gray>3</current_step_gray>
+		<current_step_gray>4</current_step_gray>
 		<gray_gain_0>80</gray_gain_0>
 		<gray_expo_0>4.15</gray_expo_0>
 		<gray_gain_1>110</gray_gain_1>
@@ -696,7 +697,7 @@
 	</laser_cam_para_config>
 	<speckle_cam_para_config>
 		<max_step>18</max_step>
-		<current_step_gray>10</current_step_gray>
+		<current_step_gray>12</current_step_gray>
 		<gray_gain_0>100</gray_gain_0>
 		<gray_expo_0>3.15</gray_expo_0>
 		<gray_gain_1>120</gray_gain_1>
@@ -736,7 +737,7 @@
 		<gray_gain_18>510</gray_gain_18>
 		<gray_expo_18>9.15</gray_expo_18>
 	</speckle_cam_para_config>
-	<savepath>D:\test_sdk\rapid\2xp\11_new</savepath>
+	<savepath>C:\Users\shining3d\Desktop\test\rapid\lwj-sdk</savepath>
 	<project_path/>
 	<information>
 		<pointcount>0</pointcount>
@@ -745,7 +746,7 @@
 		<app_start_time/>
 	</information>
 	<last_save_path/>
-	<last_prj_save_path>D:/test_sdk/rapid/</last_prj_save_path>
+	<last_prj_save_path>D:/test_sdk/11/</last_prj_save_path>
 	<last_prj_open_path/>
 	<marker_point_path>F:/ppppp.p3</marker_point_path>
 	<last_marker_point_path/>
@@ -755,7 +756,7 @@
 	<3dfile_type>0</3dfile_type>
 	<3dfile_path/>
 </config>
-<state__scan>1</state__scan>
+<state__scan>0</state__scan>
 <3dker>
 	<!--host-->
 	<host>http://www.3dker.com/</host>
