@@ -1,4 +1,0 @@
-Log file created at: 2019/05/24 15:30:05
-Running on machine: DESKTOP-DIRKOH1
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-I0524 15:30:05.163831  7760 main.cpp:54] main exit ScanService.exe already exist

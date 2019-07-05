@@ -6,7 +6,7 @@
 	<laser_scan_config>
 		<cameraExposure>5.0</cameraExposure>
 		<cameraExposure_cali>5.0</cameraExposure_cali>
-		<cameraExposure_tex_cali>5</cameraExposure_tex_cali>
+		<cameraExposure_tex_cali>3</cameraExposure_tex_cali>
 		<cameraGain_tex_cali>64</cameraGain_tex_cali>
 		<cameraGain>100</cameraGain>
 		<ProjectorBrightness>32</ProjectorBrightness>
@@ -18,7 +18,7 @@
 		<PointDistF_Low_Set>1.0</PointDistF_Low_Set>
 		<PointDistF_Other>false</PointDistF_Other>
 		<PointDistF_Step>0.1</PointDistF_Step>
-		<PointDistF_Max>3.0</PointDistF_Max>
+		<PointDistF_Max>2.0</PointDistF_Max>
 		<PointDistF_Min>0.2</PointDistF_Min>
 		<epipolar>0.8</epipolar>
 		<dTolerance>0.05</dTolerance>
@@ -30,13 +30,13 @@
 		<height>1024</height>
 		<dScanRange>300</dScanRange>
 		<highThresh>0.7</highThresh>
-		<lowThresh>0.15</lowThresh>
+		<lowThresh>0.2</lowThresh>
 		<circumferenceMin>30</circumferenceMin>
 		<circumferenceMax>200</circumferenceMax>
 		<minDiameter>8</minDiameter>
 		<maxDiameter>60</maxDiameter>
 		<circleQuality>0.4</circleQuality>
-		<grayTh>35</grayTh>
+		<grayTh>100</grayTh>
 		<sigma>1.0</sigma>
 		<disPlatTh>0.3</disPlatTh>
 		<parallaxTh>450</parallaxTh>
@@ -61,16 +61,26 @@
 		<irCamLeftNum>MV60502632</irCamLeftNum>
 		<irCamRightNum>MV60502619</irCamRightNum>
 		<feature_align_disThreshold>0.3</feature_align_disThreshold>
-		<feature_frameRata>0.5</feature_frameRata>
+		<feature_frameRata>0.25</feature_frameRata>
 		<normal_range_num>17</normal_range_num>
 		<primenormcameraExposure>5.0</primenormcameraExposure>
 		<primenormcameragain>100</primenormcameragain>
-		<primecameraExposure>5.0</primecameraExposure>
-		<primecameragain>100</primecameragain>
-		<ir_CamLeftNum>SH442199409097375744</ir_CamLeftNum>
-		<ir_CamRightNum>SH442199409097375744</ir_CamRightNum>
+		<primecameraExposure>4.0</primecameraExposure>
+		<primecameragain>32</primecameragain>
+		<primesharpness>100</primesharpness>
+		<primgamma>0</primgamma>
+		<ir_CamLeftNum>SH509471417763692544</ir_CamLeftNum>
+		<ir_CamRightNum>SH509471417763692544</ir_CamRightNum>
+		<norm_CamLeftNum>SH513135312599515136</norm_CamLeftNum>
+		<norm_ir_CamRightNum>SH513135312599515136</norm_ir_CamRightNum>
+		<left_name>IRleftPic_2.bmp</left_name>
+		<right_name>IRrightPic_2.bmp</right_name>
+		<PointDistF_Max_plus>3.0</PointDistF_Max_plus>
+		<fusionLimitNum>3000</fusionLimitNum>
+		<plane_rate>0.8</plane_rate>
 	</laser_scan_config>
 	<Speckle_config>
+		<save_frame>1</save_frame>
 		<Show_Pic>0</Show_Pic>
 		<If_Read_Pic>0</If_Read_Pic>
 		<If_Save_Pic>0</If_Save_Pic>
@@ -94,7 +104,7 @@
 		<icpMinDis>5.0</icpMinDis>
 		<icpMaxAng>60</icpMaxAng>
 		<icpMinAng>60</icpMinAng>
-		<icpRataRay>0.3</icpRataRay>
+		<icpRataRay>0.25</icpRataRay>
 		<icpRataFrame>0.5</icpRataFrame>
 		<fetchWeight>3.0</fetchWeight>
 		<searchDis>60</searchDis>
@@ -104,9 +114,12 @@
 		<fARataFrame>0.5</fARataFrame>
 		<isSaveRawResult>0</isSaveRawResult>
 		<singleScanPeriod>15</singleScanPeriod>
-		<keepProjectingPercent>15</keepProjectingPercent>
+		<singleScanPeriodT>25</singleScanPeriodT>
+		<singleScanPeriodN>33</singleScanPeriodN>
+		<keepProjectingPercent>20</keepProjectingPercent>
 		<trigColorCameraGapCount>3</trigColorCameraGapCount>
-		<waitTimeBeforeTrigColorCamera>10</waitTimeBeforeTrigColorCamera>
+		<waitTimeBeforeTrigColorCameraN>60</waitTimeBeforeTrigColorCameraN>
+		<waitTimeBeforeTrigColorCamera>45</waitTimeBeforeTrigColorCamera>
 		<SetTriggerPulseWidth_Mon>5</SetTriggerPulseWidth_Mon>
 		<SetTriggerPulseWidth_Col>5</SetTriggerPulseWidth_Col>
 		<ifShowCurrentData>1</ifShowCurrentData>
@@ -122,7 +135,7 @@
 		<PointDistF_Low_Set>1.5</PointDistF_Low_Set>
 		<PointDistF_Other>true</PointDistF_Other>
 		<PointDistF_Step>0.1</PointDistF_Step>
-		<PointDistF_Max>3.0</PointDistF_Max>
+		<PointDistF_Max>2.0</PointDistF_Max>
 		<PointDistF_Min>0.5</PointDistF_Min>
 		<PointDistF_Min_plus>0.5</PointDistF_Min_plus>
 		<icpDisAvgThread>0.3</icpDisAvgThread>
@@ -135,10 +148,10 @@
 		<rapid_AlignLimitNum>4000</rapid_AlignLimitNum>
 		<UseDepthBuffer>1</UseDepthBuffer>
 		<ui_dpi_scale>1</ui_dpi_scale>
-		<GlobalOptimization>0</GlobalOptimization>
+		<GlobalOptimization>1</GlobalOptimization>
 		<maxOptFrameNumber>60000</maxOptFrameNumber>
 		<memory_need_per_frame>2</memory_need_per_frame>
-		<total_frame_count>19</total_frame_count>
+		<total_frame_count>90</total_frame_count>
 		<AutoSaveDepthBuffer>0</AutoSaveDepthBuffer>
 		<AutoSaveFrameSpan>100000</AutoSaveFrameSpan>
 		<use_gradthread_norm>1</use_gradthread_norm>
@@ -151,14 +164,16 @@
 		<minPatchSize>100</minPatchSize>
 		<planeRata>0.5</planeRata>
 		<planeThreshold>0.5</planeThreshold>
+		<planeThreshold2x>0.5</planeThreshold2x>
 		<rapid_flag>false</rapid_flag>
 		<grayImageSample>4</grayImageSample>
 		<ePointDistF>1.0</ePointDistF>
-		<rapid_flag_copy>true</rapid_flag_copy>
+		<rapid_flag_copy>false</rapid_flag_copy>
 		<ProjectorBrightness2x>15</ProjectorBrightness2x>
 		<rapid_data_save>false</rapid_data_save>
-		<rapid_reload>0</rapid_reload>
+		<rapid_reload>1</rapid_reload>
 		<hd_rapid_flag>true</hd_rapid_flag>
+		<PointDistF_Max_plus>3.0</PointDistF_Max_plus>
 		<rapid_special>false</rapid_special>
 	</Speckle_config>
 	<stripe_config>
@@ -184,7 +199,7 @@
 		<feature_radius>1</feature_radius>
 		<simp_ratio>1</simp_ratio>
 		<hough_bin_size>0.3</hough_bin_size>
-		<need_mesh_smooth>1</need_mesh_smooth>
+		<need_mesh_smooth>0</need_mesh_smooth>
 		<mesh_smooth_iteration>2</mesh_smooth_iteration>
 		<mesh_smooth_iteration_min>1</mesh_smooth_iteration_min>
 		<mesh_smooth_iteration_max>5</mesh_smooth_iteration_max>
@@ -222,13 +237,13 @@
 		<double_gain_4>1</double_gain_4>
 		<double_gain_5>1</double_gain_5>
 		<group_featue>1</group_featue>
-		<turn_align_type>2</turn_align_type>
+		<turn_align_type>-1</turn_align_type>
 		<mesh_sharp_iter>3</mesh_sharp_iter>
 		<s_bright_show>0</s_bright_show>
-		<last_turn_align_type>2</last_turn_align_type>
+		<last_turn_align_type>-1</last_turn_align_type>
 		<color_camera_count>0</color_camera_count>
 		<scan_use_color_camera>0</scan_use_color_camera>
-		<color_mode>0</color_mode>
+		<color_mode>1</color_mode>
 		<color_scan_mode>0</color_scan_mode>
 		<lightstate>0</lightstate>
 		<usb2_error>0</usb2_error>
@@ -463,10 +478,90 @@
 		<LgScale>0.95368840101938823</LgScale>
 		<LbScale>1</LbScale>
 	</desk2plus_config>
+	<laser_prime_cam_para_config>
+		<max_step>18</max_step>
+		<current_step_gray>18</current_step_gray>
+		<gray_gain_0>100</gray_gain_0>
+		<gray_expo_0>4.15</gray_expo_0>
+		<prime_gray_expo_0>5.0</prime_gray_expo_0>
+		<prime_gray_gain_0>32</prime_gray_gain_0>
+		<gray_gain_1>120</gray_gain_1>
+		<gray_expo_1>4.15</gray_expo_1>
+		<prime_gray_expo_1>5.0</prime_gray_expo_1>
+		<prime_gray_gain_1>40</prime_gray_gain_1>
+		<gray_gain_2>140</gray_gain_2>
+		<gray_expo_2>4.15</gray_expo_2>
+		<prime_gray_expo_2>5.0</prime_gray_expo_2>
+		<prime_gray_gain_2>48</prime_gray_gain_2>
+		<gray_gain_3>160</gray_gain_3>
+		<gray_expo_3>4.15</gray_expo_3>
+		<prime_gray_expo_3>5.0</prime_gray_expo_3>
+		<prime_gray_gain_3>54</prime_gray_gain_3>
+		<gray_gain_4>180</gray_gain_4>
+		<gray_expo_4>4.15</gray_expo_4>
+		<prime_gray_expo_4>5.0</prime_gray_expo_4>
+		<prime_gray_gain_4>64</prime_gray_gain_4>
+		<gray_gain_5>200</gray_gain_5>
+		<gray_expo_5>4.15</gray_expo_5>
+		<prime_gray_expo_5>6.0</prime_gray_expo_5>
+		<prime_gray_gain_5>64</prime_gray_gain_5>
+		<gray_gain_6>220</gray_gain_6>
+		<gray_expo_6>4.15</gray_expo_6>
+		<prime_gray_expo_6>7.0</prime_gray_expo_6>
+		<prime_gray_gain_6>58</prime_gray_gain_6>
+		<gray_gain_7>240</gray_gain_7>
+		<gray_expo_7>4.15</gray_expo_7>
+		<prime_gray_expo_7>7.0</prime_gray_expo_7>
+		<prime_gray_gain_7>61</prime_gray_gain_7>
+		<gray_gain_8>260</gray_gain_8>
+		<gray_expo_8>4.15</gray_expo_8>
+		<prime_gray_expo_8>7.0</prime_gray_expo_8>
+		<prime_gray_gain_8>64</prime_gray_gain_8>
+		<gray_gain_9>270</gray_gain_9>
+		<gray_expo_9>4.15</gray_expo_9>
+		<prime_gray_expo_9>8.0</prime_gray_expo_9>
+		<prime_gray_gain_9>58</prime_gray_gain_9>
+		<gray_gain_10>270</gray_gain_10>
+		<gray_expo_10>5</gray_expo_10>
+		<prime_gray_expo_10>8.0</prime_gray_expo_10>
+		<prime_gray_gain_10>61</prime_gray_gain_10>
+		<gray_gain_11>280</gray_gain_11>
+		<gray_expo_11>6</gray_expo_11>
+		<prime_gray_expo_11>8.0</prime_gray_expo_11>
+		<prime_gray_gain_11>64</prime_gray_gain_11>
+		<gray_gain_12>290</gray_gain_12>
+		<gray_expo_12>7</gray_expo_12>
+		<prime_gray_expo_12>9.0</prime_gray_expo_12>
+		<prime_gray_gain_12>58</prime_gray_gain_12>
+		<gray_gain_13>300</gray_gain_13>
+		<gray_expo_13>8</gray_expo_13>
+		<prime_gray_expo_13>9.0</prime_gray_expo_13>
+		<prime_gray_gain_13>63</prime_gray_gain_13>
+		<gray_gain_14>380</gray_gain_14>
+		<gray_expo_14>8.3</gray_expo_14>
+		<prime_gray_expo_14>9.0</prime_gray_expo_14>
+		<prime_gray_gain_14>64</prime_gray_gain_14>
+		<gray_gain_15>440</gray_gain_15>
+		<gray_expo_15>10</gray_expo_15>
+		<prime_gray_expo_15>9.0</prime_gray_expo_15>
+		<prime_gray_gain_15>64</prime_gray_gain_15>
+		<gray_gain_16>470</gray_gain_16>
+		<gray_expo_16>12</gray_expo_16>
+		<prime_gray_expo_16>10.0</prime_gray_expo_16>
+		<prime_gray_gain_16>60</prime_gray_gain_16>
+		<gray_gain_17>500</gray_gain_17>
+		<gray_expo_17>16</gray_expo_17>
+		<prime_gray_expo_17>10.0</prime_gray_expo_17>
+		<prime_gray_gain_17>62</prime_gray_gain_17>
+		<gray_gain_18>512</gray_gain_18>
+		<gray_expo_18>20</gray_expo_18>
+		<prime_gray_expo_18>10.0</prime_gray_expo_18>
+		<prime_gray_gain_18>64</prime_gray_gain_18>
+	</laser_prime_cam_para_config>
 	<common_para_config>
 		<show_ple_id>CP-20180098J14-V300</show_ple_id>
-		<language_type>1033</language_type>
-		<scan_type>2</scan_type>
+		<language_type>2052</language_type>
+		<scan_type>0</scan_type>
 		<stripe_scan_type>0</stripe_scan_type>
 		<scan_precision_type>0</scan_precision_type>
 		<scan_texture_type>0</scan_texture_type>
@@ -481,18 +576,19 @@
 		<project_width>20</project_width>
 		<project_width2x>15</project_width2x>
 		<scan_period>15</scan_period>
+		<scan_texperiod>20</scan_texperiod>
 		<wait_time>5</wait_time>
 		<cam_width>1280</cam_width>
 		<cam_height>1024</cam_height>
 		<do_guide>1</do_guide>
 		<do_test_mode>false</do_test_mode>
 		<device_state>0</device_state>
-		<model_fn>200848</model_fn>
-		<model_vn>101424</model_vn>
-		<model_x>423.70361328125</model_x>
-		<model_y>408</model_y>
-		<model_z>482.0126953125</model_z>
-		<mesh_sample_edit>0</mesh_sample_edit>
+		<model_fn>77190</model_fn>
+		<model_vn>39463</model_vn>
+		<model_x>387</model_x>
+		<model_y>311.576171875</model_y>
+		<model_z>230.9384765625</model_z>
+		<mesh_sample_edit>100</mesh_sample_edit>
 		<mesh_resize_edit>100</mesh_resize_edit>
 		<need_mesh_sample>1</need_mesh_sample>
 		<need_mesh_resize>0</need_mesh_resize>
@@ -500,27 +596,27 @@
 		<sys_debug>0</sys_debug>
 		<device_type>1</device_type>
 		<have_mesh_type>0</have_mesh_type>
-		<save_type_asc>true</save_type_asc>
+		<save_type_asc>false</save_type_asc>
 		<save_type_stl>false</save_type_stl>
 		<save_type_ply>false</save_type_ply>
 		<save_type_obj>false</save_type_obj>
-		<save_type_sasc>false</save_type_sasc>
+		<save_type_sasc>true</save_type_sasc>
 		<fill_hole_marker>false</fill_hole_marker>
-		<fill_hole_marker_perimeter>15</fill_hole_marker_perimeter>
+		<fill_hole_marker_perimeter>7</fill_hole_marker_perimeter>
 		<fill_hole_plaint>false</fill_hole_plaint>
 		<fill_hole_rings_num>3</fill_hole_rings_num>
-		<fill_hole_perimeter>0</fill_hole_perimeter>
+		<fill_hole_perimeter>80</fill_hole_perimeter>
 		<mesh_poss_type>0</mesh_poss_type>
 		<tex_show_type>0</tex_show_type>
 		<import_marker_point>0</import_marker_point>
 		<device_type_name>pro</device_type_name>
-		<color_camera>0</color_camera>
+		<color_camera>1</color_camera>
 		<save_type_p3>false</save_type_p3>
 		<log_remainday>3</log_remainday>
 		<sleep_time_>100</sleep_time_>
 		<sleep_stime_>400</sleep_stime_>
 		<show_s_id>0</show_s_id>
-		<device_sub_type>2</device_sub_type>
+		<device_sub_type>1</device_sub_type>
 		<poss_mesh_for_print>0</poss_mesh_for_print>
 		<fill_hole_marker_dis>4.5</fill_hole_marker_dis>
 		<norm_dot_prod_thr>0.0</norm_dot_prod_thr>
@@ -536,7 +632,7 @@
 		<camera_right_scale>1</camera_right_scale>
 		<3dprint>0</3dprint>
 		<flag_fast_calibrate>0</flag_fast_calibrate>
-		<current_calibrate>1</current_calibrate>
+		<current_calibrate>2</current_calibrate>
 		<first_use>1</first_use>
 		<save_type_3mf>false</save_type_3mf>
 		<3dker_national_link>http://www.einscan.com</3dker_national_link>
@@ -587,17 +683,14 @@
 		<show_prime_video>0</show_prime_video>
 		<modul_ex_ple_left_right/>
 		<modul_ex_ple_right_left/>
-		<is2X>true</is2X>
+		<is2X>false</is2X>
 		<have_texture_camera>0</have_texture_camera>
-		<r2_actived>0</r2_actived>
-		<use_save_mesh>true</use_save_mesh>
-		<isCN>false</isCN>
-		<isCH>true</isCH>
-		<enable_minus_plus_without_double_click>true</enable_minus_plus_without_double_click>
+		<use_save_mesh>false</use_save_mesh>
+		<isCH>false</isCH>
 	</common_para_config>
 	<stripe_cam_para_config>
 		<max_step>16</max_step>
-		<current_step_gray>4</current_step_gray>
+		<current_step_gray>0</current_step_gray>
 		<gray_gain_0>80</gray_gain_0>
 		<gray_expo_0>4.15</gray_expo_0>
 		<gray_gain_1>110</gray_gain_1>
@@ -635,27 +728,27 @@
 	</stripe_cam_para_config>
 	<laser_cam_para_config>
 		<max_step>18</max_step>
-		<current_step_gray>0</current_step_gray>
+		<current_step_gray>2</current_step_gray>
 		<gray_gain_0>100</gray_gain_0>
-		<gray_expo_0>3.15</gray_expo_0>
+		<gray_expo_0>4.15</gray_expo_0>
 		<gray_gain_1>120</gray_gain_1>
-		<gray_expo_1>3.15</gray_expo_1>
+		<gray_expo_1>4.15</gray_expo_1>
 		<gray_gain_2>140</gray_gain_2>
-		<gray_expo_2>3.15</gray_expo_2>
+		<gray_expo_2>4.15</gray_expo_2>
 		<gray_gain_3>160</gray_gain_3>
-		<gray_expo_3>3.15</gray_expo_3>
+		<gray_expo_3>4.15</gray_expo_3>
 		<gray_gain_4>180</gray_gain_4>
-		<gray_expo_4>3.15</gray_expo_4>
+		<gray_expo_4>4.15</gray_expo_4>
 		<gray_gain_5>200</gray_gain_5>
-		<gray_expo_5>3.15</gray_expo_5>
+		<gray_expo_5>4.15</gray_expo_5>
 		<gray_gain_6>220</gray_gain_6>
-		<gray_expo_6>3.15</gray_expo_6>
+		<gray_expo_6>4.15</gray_expo_6>
 		<gray_gain_7>240</gray_gain_7>
-		<gray_expo_7>3.15</gray_expo_7>
+		<gray_expo_7>4.15</gray_expo_7>
 		<gray_gain_8>260</gray_gain_8>
-		<gray_expo_8>3.15</gray_expo_8>
-		<gray_gain_9>260</gray_gain_9>
-		<gray_expo_9>4</gray_expo_9>
+		<gray_expo_8>4.15</gray_expo_8>
+		<gray_gain_9>270</gray_gain_9>
+		<gray_expo_9>4.15</gray_expo_9>
 		<gray_gain_10>270</gray_gain_10>
 		<gray_expo_10>5</gray_expo_10>
 		<gray_gain_11>280</gray_gain_11>
@@ -675,49 +768,49 @@
 		<gray_gain_18>510</gray_gain_18>
 		<gray_expo_18>9.15</gray_expo_18>
 		<prime_max_step>8</prime_max_step>
-		<prime_current_step_gray>5</prime_current_step_gray>
+		<prime_current_step_gray>8</prime_current_step_gray>
 		<prime_gray_expo_0>5.0</prime_gray_expo_0>
-		<prime_gray_gain_0>8</prime_gray_gain_0>
+		<prime_gray_gain_0>16</prime_gray_gain_0>
 		<prime_gray_expo_1>5.0</prime_gray_expo_1>
-		<prime_gray_gain_1>9</prime_gray_gain_1>
+		<prime_gray_gain_1>32</prime_gray_gain_1>
 		<prime_gray_expo_2>5.0</prime_gray_expo_2>
-		<prime_gray_gain_2>10</prime_gray_gain_2>
-		<prime_gray_expo_3>5.0</prime_gray_expo_3>
-		<prime_gray_gain_3>11</prime_gray_gain_3>
-		<prime_gray_expo_4>5.0</prime_gray_expo_4>
-		<prime_gray_gain_4>12</prime_gray_gain_4>
-		<prime_gray_expo_5>5.0</prime_gray_expo_5>
-		<prime_gray_gain_5>13</prime_gray_gain_5>
-		<prime_gray_expo_6>5.0</prime_gray_expo_6>
-		<prime_gray_gain_6>14</prime_gray_gain_6>
-		<prime_gray_expo_7>5.0</prime_gray_expo_7>
-		<prime_gray_gain_7>16</prime_gray_gain_7>
-		<prime_gray_expo_8>5.0</prime_gray_expo_8>
-		<prime_gray_gain_8>24</prime_gray_gain_8>
+		<prime_gray_gain_2>64</prime_gray_gain_2>
+		<prime_gray_expo_3>8.0</prime_gray_expo_3>
+		<prime_gray_gain_3>32</prime_gray_gain_3>
+		<prime_gray_expo_4>8.0</prime_gray_expo_4>
+		<prime_gray_gain_4>64</prime_gray_gain_4>
+		<prime_gray_expo_5>9.0</prime_gray_expo_5>
+		<prime_gray_gain_5>32</prime_gray_gain_5>
+		<prime_gray_expo_6>9.0</prime_gray_expo_6>
+		<prime_gray_gain_6>64</prime_gray_gain_6>
+		<prime_gray_expo_7>10.0</prime_gray_expo_7>
+		<prime_gray_gain_7>32</prime_gray_gain_7>
+		<prime_gray_expo_8>10.0</prime_gray_expo_8>
+		<prime_gray_gain_8>64</prime_gray_gain_8>
 	</laser_cam_para_config>
 	<speckle_cam_para_config>
 		<max_step>18</max_step>
-		<current_step_gray>12</current_step_gray>
+		<current_step_gray>2</current_step_gray>
 		<gray_gain_0>100</gray_gain_0>
-		<gray_expo_0>3.15</gray_expo_0>
+		<gray_expo_0>4.15</gray_expo_0>
 		<gray_gain_1>120</gray_gain_1>
-		<gray_expo_1>3.15</gray_expo_1>
+		<gray_expo_1>4.15</gray_expo_1>
 		<gray_gain_2>140</gray_gain_2>
-		<gray_expo_2>3.15</gray_expo_2>
+		<gray_expo_2>4.15</gray_expo_2>
 		<gray_gain_3>160</gray_gain_3>
-		<gray_expo_3>3.15</gray_expo_3>
+		<gray_expo_3>4.15</gray_expo_3>
 		<gray_gain_4>180</gray_gain_4>
-		<gray_expo_4>3.15</gray_expo_4>
+		<gray_expo_4>4.15</gray_expo_4>
 		<gray_gain_5>200</gray_gain_5>
-		<gray_expo_5>3.15</gray_expo_5>
+		<gray_expo_5>4.15</gray_expo_5>
 		<gray_gain_6>220</gray_gain_6>
-		<gray_expo_6>3.15</gray_expo_6>
+		<gray_expo_6>4.15</gray_expo_6>
 		<gray_gain_7>240</gray_gain_7>
-		<gray_expo_7>3.15</gray_expo_7>
+		<gray_expo_7>4.15</gray_expo_7>
 		<gray_gain_8>260</gray_gain_8>
-		<gray_expo_8>3.15</gray_expo_8>
-		<gray_gain_9>260</gray_gain_9>
-		<gray_expo_9>4</gray_expo_9>
+		<gray_expo_8>4.15</gray_expo_8>
+		<gray_gain_9>270</gray_gain_9>
+		<gray_expo_9>4.15</gray_expo_9>
 		<gray_gain_10>270</gray_gain_10>
 		<gray_expo_10>5</gray_expo_10>
 		<gray_gain_11>280</gray_gain_11>
@@ -737,7 +830,7 @@
 		<gray_gain_18>510</gray_gain_18>
 		<gray_expo_18>9.15</gray_expo_18>
 	</speckle_cam_para_config>
-	<savepath>C:\Users\shining3d\Desktop\test\rapid\lwj-sdk</savepath>
+	<savepath>D:\test_sdk\22\5</savepath>
 	<project_path/>
 	<information>
 		<pointcount>0</pointcount>
@@ -746,9 +839,9 @@
 		<app_start_time/>
 	</information>
 	<last_save_path/>
-	<last_prj_save_path>D:/test_sdk/11/</last_prj_save_path>
+	<last_prj_save_path>D:/test_sdk/22/</last_prj_save_path>
 	<last_prj_open_path/>
-	<marker_point_path>F:/ppppp.p3</marker_point_path>
+	<marker_point_path/>
 	<last_marker_point_path/>
 	<marker_point_path/>
 	<import_marker_point>1</import_marker_point>
@@ -756,7 +849,7 @@
 	<3dfile_type>0</3dfile_type>
 	<3dfile_path/>
 </config>
-<state__scan>0</state__scan>
+<state__scan>1</state__scan>
 <3dker>
 	<!--host-->
 	<host>http://www.3dker.com/</host>
