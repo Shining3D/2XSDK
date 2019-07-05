@@ -1,0 +1,439 @@
+f362fc0:
+c5d2f4a:
+fdda24f:
+90798a9:
+cfa3c0a:
+	去掉冗余文件读写
+f67e855:
+	挖洞问题
+90903c4:
+	fix(#9637):混扫非纹理-预扫有图像扫描无数据
+5bb2850:
+	fix(#9630)
+	fix(#9630):文字提示
+5ab6cfb:
+	fix(#9623 #9634):文字翻译问题
+	
+	mod(QuickOSGRenderer::initOSG): 上次试验缩放控制距离后恢复代码时候遗漏一行代码导致自动旋转
+	fix(#9625 #9634):文字翻译问题
+a95fcd0:
+	fix(#9629): 单帧标志点太多的时候容易错误识别，测试时候按照正常标志点个数测试；修正暂停和扫描显示的标志点个数有差异问题
+	fix(#9583 #9393):拼接錯誤，去雜點庫
+	
+	fix(#9630): 修正超市后没有断开网络连接导致两次提示问题
+01b2b3d:
+	opt(load_and_refusion_with_parm)fix(#9605):结束扫描在47%时提示内存不足
+39bad63:
+	fix(#9626):拼錯
+4064cc5:
+	mod(Track.cpp): 注释一句打印输出
+	opt(Show_Whole_Modle_Data):幀率變慢的問題，add by wujun
+	mod(state_Speckle_Scan.cpp): 注释一行输出
+	fix(#9619): 修正去重帧标志错误导致不发送数据给客户端
+87ede8c:
+	fix(#9431): 导致进入扫描的crash坐标轴恢复回使用老UI的坐标轴代码避免crash（这个以前测试过是不crash的）；同时修正了解决这个问题引发的编辑刷新问题
+	
+df176bf:
+	opt(單詞乒協錯誤)
+	
+	opt(add by wujun)
+	mod(#9612): 坐标轴修改导致的编辑显示刷新问题，修改方式是坐标轴的代码退回上一个发布版本，这会导致原来偶现的那个进入扫描crash问题还会出现；等刷新问题解决后再合并那个解决crash的问题的代码
+bbb6354:
+	fix(#9612): 修改进入扫描crash那个问题的时候引起刷新问题导致的
+    fix(#9587): 连续失败10次发送拼接失败的策略改成了缺省值5次，可以通过配置文件修改
+    mod(AppGlobal::quitProecess): 退出程序改成了直接杀死进程 避免在扫描界面退出跳出crash对话框
+	
+	fix(#9606): 优化了一下当前显卡检测的代码 避免有的电脑明显看到窗口闪一下
+	算法库更新，影响快速扫描，帧率、大角度等
+    fix(#9543):导入三个工程验证没有杂点
+    fix(#9668):由于杂点较多，引发拼接失败或者拼接错误
+    fix(#9543):平衡大角度，采用较为理想的参数，并且加入法向优化
+    
+    [M`"!#
+07bf1d0:
+	fix(#9590):原因，2x设备未判断
+	del(mesh_nocolor.frag): 删除文件
+	fix(#9567):17把注释给错改了，29未知原因未修改到
+	mod(#9480):修改配置文件
+                    <lowThresh>0.3</lowThresh>
+                    <minDiameter>16</minDiameter>
+                    <circleQuality>0.3</circleQuality>
+                    <grayTh>600</grayTh>
+    mod(#9446):修改配置文件
+                    <lowThresh>0.3</lowThresh>
+                    <minDiameter>16</minDiameter>
+                    <circleQuality>0.3</circleQuality>
+                    <grayTh>600</grayTh>
+    如果还有这个问题，需要关注日志中下面的输出信息
+      first frame size:4
+      first frame
+	fix(#9595 #9578):無匹配ple會閃退
+	add(mesh_nocolor.frag): 添加文件
+	mod(#9603):注释DUMP文件
+	fix(#9604):點擊關於出現了用戶反饋，調試信息不小心上傳了
+	fix(#9431): 导致crash的坐标轴替换了老UI的坐标轴 ftp上已经把老UI的坐标轴文件上传上去了
+    mod(scanservice.cpp): 去掉部分日志避免影响扫描性能
+ce7d9ba:
+	mod(Scan::Edit_Frame_Done): 添加日志核查编辑删除不掉问题，已经确认是0.25点距下算法必现这个问题
+	fix(#9570): 多线程顺序和RT导致不显示
+    mod(): 支持p3加密
+a867e6d:
+	fix(#9576):prime点距条bug
+	fix(#9577):快捷键enter
+	fix(#9578):无匹配PLE情况下，软件自动进入标定界面
+	fix(#9566):文字翻译
+	fix(#9581):提交文字被遮挡
+	fix(#9454):优化代码提高法向求取方式，验证了两个模型
+    opt(laser_scan::com_range)：优化这类代码，解决就标志点法向问题
+    fix(#9565):已经把这个输出注释
+    mod(#9588):增加了配置文件planeThreshold2x，默认值给0.7
+	fix(#9567):提示文字修改
+	fix(#9582):改为英文
+	fix(#9535):进度条动画适配有问题，已调整
+	fix(#9575 #9574):纹理相机未标定，提示
+	fix(#9580):用户体验计划标题布局
+847ad3c:
+	fix(#9562): 去饱和度效果导致
+	
+	BUG9454，BUG9565
+    fix(#9454):优化代码提高法向求取方式，验证了两个模型
+    opt(laser_scan::com_range)：优化这类代码，解决就标志点法向问题
+    fix(#9565):已经把这个输出注释
+	配置文件修改
+    fix(#9554):配置文件修改
+      增加 <save_frame>1</save_frame> 发布时候需要修改为默认值
+      增加 <rapid_special>false</rapid_special>  发布时候需要修改为默认值
+      laser_cam_para_config字段内部修改
+      speckle_cam_para_config字段内部修改
+    add(Set_Enable_Video_Trigger()):快速模式下，分别控制环形灯的情况 ，包括连接PRIME的情况激光器关闭
+    opt(clean_scan_state)：优化这类代码，主要对Set_Enable_Video_Trigger的调用
+956f3c9:
+	fix(#9564): 修正按钮状态不对
+	
+6c0e8b2:
+	BUG9436
+    fix(#9436):prime平面检查问题
+    opt(TrackWithoutMarkerPt):优化代码，参数调整
+	BUG9436
+	BUG9541
+    fix(#9541):更新算法库，解决快速NORM杂点问题，这个和大角度有关系
+3e19f9e:
+	误识别标志点修改
+    fix(#9446):这个进入的标志点扫描，新版本对标志点提取，严格参数，看这个问题是否还存在
+    fix(#9480):这个进入的标志点扫描，新版本对标志点提取，严格参数，看这个问题是否还存在
+    opt(start_scan_with_makers):增加标志点提取参数设置
+	fix(#9555):文字翻译
+	误识别标志点修改
+	
+	fix(#9532): 修改文字
+	fix(#9513):选择模式的提示信息
+4a95b46:
+	BUG9528
+    opt(Load_base_project):优化代码，防止文件的异常读入
+    fix(#9528):优化代码，防止文件的异常读入
+	
+	BUG9528
+	fix(#9532): 调整检测当前显卡的代码
+    fix(#9533): 调整检测当前显卡的代码
+    fix(#9551): 调整HD显示的点距大小
+590af0f:
+	9517混拼相关问题
+    opt(globalRebuildThreadFunc):优化代码，为了解决9518的崩溃问题
+    opt(globalRebuildThreadFunc):优化代码，为了解决9517的崩溃问题
+    opt(relocationWithMarker):优化代码，为了解决9517的崩溃问题
+    fix(#9517):修改了参数设置
+    fix(#9518):修改了参数设置
+	9451和9436
+    opt(TrackWithoutMarkerPt):优化代码，为了解决9436问题
+    fix(#9436):修改了参数设置，config.laser_cam_para_config.plane_rate 默认值为0.8
+    fix(#9541):更新算法，算法影响快速扫描杂点。需要关注大角度
+    mod(9528):相关分析输出
+	prime混拼平面问题
+	9451和9436
+	prime混拼平面问题
+    opt(TrackWithoutMarkerPt):优化代码，为了解决9436的崩溃问题
+    fix(#9436):修改了参数设置，config.laser_cam_para_config.plane_rate 默认值为0.8
+d1c8e36:
+	fix(#9431): 调整后跑机100次以上没有出现crash，手动测试了十几次也没有出现crash
+	
+	算法库更新影响快速扫描，标志点提取、大角度，纹理等
+    opt(FusionThread):优化函数，为了解决9480
+    fix(#9530):算法库更新，仅仅影响纹理效果，测试9次龙板
+    fix(#9480):优化代码，开始添加这份功能是在混拼下添加的，测试9次龙板
+    opt(FusionThread):优化代码，为了解决9480遗漏问题。
+    fix(#9537):参数调整
+cc262cd:
+	mod(main.cpp): 修改提示文字标点符号
+	mod(ViewerDatum::traverse): 添加异常日志跟踪 osg crash问题
+	1. mod(QuickOSGRenderer::~QuickOSGRenderer): 添加清理场景数据
+	fix(#9345): sketchfab分享进度条问题
+	
+	fix(#9431): 天机日志和异常处理，osg第一次刷新延迟到新建或者打开工程后
+	fix(#9533): 改成了识别当前显卡 消息框改成了信息提示框
+	fix(#9535):进度条动画跑外面去了
+	mod(quickosgrenderer.cpp): 添加日志 跟踪osg crash问题
+    mod(viewerdatum.cpp): 添加异常处理跟踪osg crash问题
+a79cf60:
+	fix(#9408) 临时解决标定完成就会离线
+	fix(#9480):还有问题的话，直接给增艺，增加参数的调整
+    opt(FusionThread):优化函数，为了解决9480
+    fix(#9506):纹理相机参数调整回64
+	fix(#9390)文字提示错误，问号后添加空格，打回多次，字母大小写，空格，逗号问题，细心 细心 再细心，下次简单bug认真看
+	fix(#9469): 添加多显卡检测和提示消息框
+	opt():优化亮度调节代码
+	fix(#9429): 文件预览的模型颜色仅在点数很小的使用新现实方案避免颜色难看，其它情况保持和扫描软件一致
+    mod(ScanPage.qml): 添加日志跟踪页面创建销毁，用于后续核查进入扫描界面闪退问题
+    mod(AppWorker::handleMeshData): 添加日志输出 跟踪一个偶现的简化客户端闪退
+	增加输出查看新建工程慢的问题
+	fix(#9056):FTP上传覆盖问题，已经解决
+    fix(#9489):更换算法库，影响标志点拼接（手持部分）
+    opt(Edit_Fusion_Frame):优化代码，解决9404中异常输出问题
+    fix(#9404):优化代码，解决9404中异常输出问题,由于是偶现问题，这里只验证了6次
+    fix(#9457):提示内存不足后，软件异常暂时是不修改的，另外这个问题帧数也是比较大的
+	算法库更新影响快速扫描，标志点提取、大角度
+    fix(#9480):还有问题的话，直接给增艺，增加参数的调整
+    opt(FusionThread):优化函数，为了解决9480
+    fix(#9524):算法库更新
+    fix(#9519):算法库更新
+    fix(#9393):算法库更新
+d43a7e6:
+	补充上传
+    fix(#9506):配置文件已经修改
+    fix(#9473):补发命令，让激光关闭
+    fix(#9435):硬件设备问题，建议新的设备全部更换
+    fix(#9465):低于3000个点，不让扫描或者拼接丢失，可以查看日志ERROR-----------onTrackLost--="
+	补充上传
+4cc8561:
+	mod(laser_scan.cpp): 添加日志
+	fix(#9500):radiocheckbox点击2下会取反的问题
+	opt(GlobalRebuildThreadFunc):增加配置文件config.Slaser_scan_config.fusionLimitNum，来判断最小点数控制
+    opt(GlobalFusionThreadFunc):增加配置文件config.Slaser_scan_config.fusionLimitNum，来判断最小点数控制,并且加入太平提
+    
+    示
+    opt(配置文件):增加配置文件：1、laser_scan_config.fusionLimitNum 默认值为3000，可以适当调整。2、cameraGain_tex_cali值
+    
+    修改为128
+	fix(#9429): 修改颜色
+    fix(#9459): 标定点拼接数据质量太差时候没有清理显示数据
+	fix(#9390)文字大小写
+	fix(#9483)Not enough features  to align
+	补充上传内容
+    fix(9506):配置文件已经修改
+    fix(9473):补发命令，让激光关闭
+    fix(9435):硬件设备问题，建议新的设备全部更换
+    fix(9465):低于3000个点，不让扫描或者拼接丢失，可以查看日志ERROR-----------onTrackLost--="
+	fix(#9436):prime增加了平面和点数限制
+    fix(#9507):纹理内存硬盘交互取消
+    fix(#9511):纹理内存硬盘交互取消
+    opt(global_optim):优化标志点全局优化方式
+    opt(global_optimization_with_marker):优化标志点全局优化方式
+    fix(#9393):算法库更新解决大角度问题
+	fix(#9499) 固定封装后，按钮还可以扫描的问题
+fa0837c:
+	opt(globalFusionThreadFunc):优化代码，为了解决纹理扫描内容问题
+    opt(collect_frame_data):优化代码，为了解决纹理扫描内容问题-标志点部分
+    opt(marker_scan_realtime_with_tritop):优化代码，为了解决纹理扫描内容问题-标志点部分
+    opt(speckle_scan_with_makers):优化代码，为了解决纹理扫描内容问题-标志点部分
+    mod(Get_Pic_data):注释查找，纹理扫描颜色问题生成的纹理图
+    mod(reset):名字修改为scan_reset
+    del(load_project_thread_disk):已经被新的函数替换
+    add(release_tex_scanstate):该函数仅仅是保存等使用
+    fix(9473):放开关闭
+285792f:
+	fix(#9475) 跟踪丢失闪烁
+7f6ec0f:
+	add(qml.qrc): 模型预览工具添加资源文件
+	fix(#8493): 修改qt到osg的事件映射问题 注释了部分日志输出
+    fix(#9474): 简化后对进度条的隐藏做了一秒延时 避免数据数据没有显示出来进度条先消失
+	fix(#9429): 针对ply的显示做了优化 避免细节显示不出来
+    fix(#9476): 帧数太少时候忘记清理上一次的全局优化数据导致现实上一次的数据
+	mod(qml.qrc): 删除加错了的资源文件
+	fix(#9498) rowa系列问题
+	fix(#9444) HD切白平衡不上图的问题
+fa08e32:
+	opt(globalFusionThreadFunc):优化代码，为了解决纹理扫描内容问题
+    opt(collect_frame_data):优化代码，为了解决纹理扫描内容问题-标志点部分
+    opt(marker_scan_realtime_with_tritop):优化代码，为了解决纹理扫描内容问题-标志点部分
+    opt(speckle_scan_with_makers):优化代码，为了解决纹理扫描内容问题-标志点部分
+    mod(Get_Pic_data):注释查找，纹理扫描颜色问题生成的纹理图
+	fix(#9477)工程路径返回主页后，不再显示工程路径
+	opt(calibrate)四个视口，自用
+7f7d5ba:
+	fix(#9390)文字翻译问题
+	fix(#9390) with prime
+	fix(#9366 #9433) 标记点数太少要提示 小于4提示
+	fix(#9458) 固定断线扫描按钮应该变灰
+	fix(#bug9460): 修正结束扫描后亮度调节没有消失
+	fix(#9459):肖德玲已经按照仲方式验证
+    fix(#9433):肖德玲已经按照仲方式验证
+    mod(for_leave):9473问题优化
+	fix(#bug9456): HD封闭封装进度条问题
+	fix(#bug9453): 一帧数据 两个RT导致
+	fix(#9328)校准失败文字问题
+	fix(#9449):增加了一处显存释放
+    fix(#9447):增加了一处显存释放
+    mod(Sn3dMultilinesReb3d::ReleaseMem):解决9449和9447
+    fix(#9143):RT异常导致数据无法后处理
+    opt(load_and_refusion_with_parm):为了解决9143问题,优化代码
+    opt(global_optimization_body_scan_new):为了解决9143问题,优化代码
+    opt(speckle_scan_with_makers):修改去重帧，参数调整
+    opt(globalFusionThreadFunc):修改去重帧，参数调整
+    opt(marker_scan_realtime_with_tritop):修改去重帧，参数调整
+	fix(#9473):退出方式优化
+07148e6:
+	fix(#9441) prime標定失敗的bug
+	fix(#bug9429): ply读取功能改成osg自带的读取函数就可以了，原来读ply的函数只支持我们自己的格式
+	fix(#9089):更换算法库
+    fix(#9421):算法库更新，以及对应接口修改
+    mod(ColorCorrect_ini):解决9421问题
+    fix(#9089):算法库更新：write_mesh 更改为 write_stl_mesh 修改的地方较多,影响范围是：所有模式的
+    STL和OBJ的保存（包括预览的导入），common库有修改，需要验证扫描效率问题（每个模式验证3次）
+	fix(#9328)校準提示
+	fix(#9387):基础硬件反馈prime最大曝光为10，增益为64，因此黑色兵马俑无法扫描，参数定为鼎
+    fix(#9387):采用3帧必须留一帧的策略解决问题，纹理采用2帧留一帧
+    fix(#9414):采用快速模式下方式修改，新建工程处理
+	fix(#bug9410): 红外扫描打钩的数据处理遗漏代码导致
+	fix(#bug9342): 过滤掉了已经删除的交点
+	fix(#9366 #9412 #9392)掃描提示系列問題
+	fix(#9384)
+	fix(9360) ple提示信息错误
+	fix(#9428)
+	mod(sn3d_application.cpp): 没有修改 文件编码变了,为了合并代码提交的
+	fix(#9366)框架點太少沒提示
+	fix(#9344)轉臺掃描過程中，不應該調節亮度
+	add(AppGlobal::havePrimeCalibrationFile): 检测prime标定文件
+    mod(CalibrationPage.qml): 精度检测添加没有标定数据的提示
+    mod(QuickOSGRenderer::render): 整体锁定刷新 避免退出的时候偶现crash
+    mod(laser_scan::start_scan_ir): 修改红外暂停刷新 避免编辑显示有误
+caa5982:
+	fix(#9365)悬停和focus相同的样式问题
+	fix(#9379) prime model选择处没有提示
+	fix(#9389)文字翻譯問題
+	fix(#9335) 新建文件后缀问题
+	fix(#9389)提示文字修改三
+	del(clean_data):删除多余的函数，多出和这个有关的修改，不影响任何功能
+    mod(newProjectThread):增加输出信息，供查看问题
+    add(loadglobalmarks):增加函数，方便框架点导入，让导入流程易懂（HD模式下）
+    add(clean_project_file):增加函数，清空工程数据，让导入流程易懂（HD模式下）
+    add(updateglobalmarkInfo):增加函数，清空工程数据，让导入流程易懂（HD模式下）
+    add(updateProjectInfo):增加函数，清空工程数据，让导入流程易懂（HD模式下）
+    add(new_project_function):增加函数，清空工程数据，让导入流程易懂（HD模式下）
+    opt(shift_state):优化代码，命令相关
+    opt(start_camera_norm):优化代码，命令相关
+    opt(clean_memory):
+    fix(#9434):修改命令
+    fix(#9437):修改命令
+    fix(#9440):修改命令
+    opt(TrackWithMarker):修改去重帧策略
+    opt(relocationWithMarker):修改去重帧策略
+    opt(marker_scan_realtime_with_tritop):修改去重帧策略
+    mod(更新算法库)：解决重帧问题
+	fix(#9407)
+	fix(#9408)标定结束离线问题
+	fix(#9368)断线置灰bug
+	del(clean_data):删除多余的函数，多出和这个有关的修改，不影响任何功能
+    mod(9045):增加输出信息，供查看问题
+4f7f479:
+	opt(prime相机无法检测到的bug)
+	fix(#9390) 界面提示文字修改
+ecab8fe:
+	fix(#9384)纹理相机颠倒
+	fix(#9399) 提示文字
+	fix(#9399)特征时扫描平面需要有文字提提示 请对着非平面区域扫描
+58182ed:
+	fix(#9385)上版本已经改了，有个注释打开错了，关闭
+	mod(WB_snap_timely):优化代码为了解决9370问题
+    mod(WB_snap_timely):优化代码为了解决9370问题
+    fix(#9370):优化代码修该BUG(自测OK10次)
+    mod(Sn3DAlgorithm::poisson_reconstruction):所有调用都改为false,不简化
+	mod(camera_snap_timely_new)：优化提取方式
+    mod(ini_calibration_image_prime)：优化提取方式，让图像比较暗的情况下也可以提取
+	mod(GlobalRebuildThreadFunc):优化代码为了解决9409问题
+    fix(#9395):优化提取方式，让图像比较暗的情况下也可以提取(自测OK6次)
+    fix(#9409):修改代码可以出数据，不崩溃(自测OK8次)
+    fix(#9394):更换算法库，需要注意是否有多余的杂点，自测没有发现(自测OK6次)
+	fix(#9359) 带prime设备下载ple失败的问题，原因循环不应该break，解决方案改为contine
+	fix(#9418):增加日志 SpeckleScan->_listener->onTooFlat
+ec54620:
+	
+	mod(globalFusionThreadFunc)：平面检查修改，文字提示暂时未修改，如果有报个BUG给肖
+c93f6ff:
+	管理员权限等修改，仅仅添加日志，查询慢的问题
+2e3d742:
+	fix(#9368)离线在扫描模式界面，扫描修改变灰，并且物理按键不可用
+	del(model_zoom)：HD模式下，现在这个函数已经没意义
+    del(checkR2File):暂时删除，由于以前是收费模块，因此代码暂时注释
+	fix(#9335)新建工程路径，没有显示工程后缀的bug，另解决一个新建取消的隐藏bug
+	del(start_camerair)：增加prime状态下的设置，
+    config.laser_scan_config.caliprimesharpness：100
+    config.laser_scan_config.caliprimgamma 0
+	mod(纹理融合库)：纹理贴图初始化慢的问题，修改了cmake文件
+	mod(colorcorrect_ini):增加输出信息，查看初始化卡在什么地方
+	fix(#9336)滑块选中没有高亮的bug,增加高亮代码
+	fix(#9296) 解决sketchfab窗口快捷键交互逻辑问题，
+	mod(GlobalRebuildThreadFunc)增加保存图像;mod(算法库)上次提交，需要验证是够影响纹理颜色
+682795b:
+c0768bb:
+46b7de0:
+	opt(CCalibrateParamReadIn):优化处理方式，加快速度
+	opt(CCalibrateParamReadIn):由于该类会引起其他模块在
+b208790:
+	标定调试代码，mod(mark_scan_Pause) 暂停异常情况下，情况数据
+	mod(main)增加控制dump控制变量
+	opt(laser_scan::set_cam_param) 功能增加，新增功能-Prime的亮度联调，代码部分已完成，相关细节参数交给吴军处理 参考 bug8996
+    
+    See merge request EinScan/QuickEinScan!681
+	fix(#8957)带Prime标定，标定step1和step2 都停留在step1,无step5图片
+    
+    See merge request EinScan/QuickEinScan!688
+	纹理扫描相关延时修改参数
+	opt(laser_scan::set_cam_param) 功能增加，新增功能-Prime的亮度联调，代码部分已完成，相关细节参数交给吴军处理 参考 bug8996
+	fix(#8957)带Prime标定，标定step1和step2 都停留在step1,无step5图片
+	代码调整查白平衡无法标定问题
+	opt(enterInner):新GPU优化
+    opt(state_laser_scan):新GPU优化
+    opt(state_Speckle_Scan.cpp):新GPU优化
+    opt(testGpu):优化GPU情况
+    opt(state_laser_scan.cpp):优化代码
+    fix(#9149):更换初始化方式，需要对HD和标定模式进行多次验证
+	解决冲突 add(set_the_prject)合并冲突
+	mod(算法库)解决重帧问题 mod(globalFusionThreadFunc) 解决重帧问题 mod(TrackWithoutMarkerPt) mod(serialPointCloud) 导入工程纹理显示问题
+	opt(testGpu)修改函数返回值（0,1或者2
+	fix(#8958) 原因传入标志数错了,  fix(#9333)原因，拼接窗口隐藏鼠标未释放，改为隐藏后也可以释放， opt(savefiledialog)savefiledialog有莫名问号，解决方法去掉，opt(注释) 标定增加若干注释
+	add(dump生成文件)目前仅仅添加了服务端的dump
+	mod(show_last_scan_data):删除多余代码
+    mod(cancel_end_scan):删除多余代码
+    mod(laser_scan_realtime_fusion_cpu):整理和删除代码
+    mod(changeCurrentRTInner):整理和删除代码
+    mod(SetCalibParamIR):整理和删除代码
+    mod(changeCurrentRTInner):整理和删除代码
+    mod(save):整理和删除代码
+    mod(LaserMarkerRebuild)：新的GPU方式
+    mod(GlobalRebuildThreadFunc):新的GPU方式
+    del(laser_multilines_scan_realtime):删除函数
+    del(laser_scan_realtime_propls_with_tritop):删除函数
+    del(RebuildThreadExpress):删除函数
+    
+    show_last_scan_data    # Please enter the
+4e3d3c7:
+	修改关闭机制
+	fix(#9334 #9341) 修复任务栏关闭机制
+	fix(#9341) 修复恢复出厂设置不能重启软件的bug
+ef05df6:
+	fix(#9339) 3mf纹理问题
+	fix(#9334) 修复右键任务栏关闭时程序不能快速关闭退出后台程序的bug
+	fix(#9339) 3mf纹理问题
+    
+    See merge request EinScan/QuickEinScan!718
+72e32c8:
+	opt(soundfun)解决声音导致奔溃的问题线程使用movetothread形式，媒体播放类换成qmedieplay
+	opt(soundfun)解决声音导致奔溃的问题线程使用movetothread形式，媒体播放类换成qmedieplay
+    
+    See merge request EinScan/QuickEinScan!712
+643b86a:
+	fix(@9323)纹理非纹理切换bug
+    
+    See merge request EinScan/QuickEinScan!710
+	fix(@9323)纹理非纹理切换bug
+814482c:
+6f6ca15:
