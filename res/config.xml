@@ -610,13 +610,13 @@
 		<tex_show_type>0</tex_show_type>
 		<import_marker_point>0</import_marker_point>
 		<device_type_name>pro</device_type_name>
-		<color_camera>1</color_camera>
+		<color_camera>0</color_camera>
 		<save_type_p3>false</save_type_p3>
 		<log_remainday>3</log_remainday>
 		<sleep_time_>100</sleep_time_>
 		<sleep_stime_>400</sleep_stime_>
 		<show_s_id>0</show_s_id>
-		<device_sub_type>1</device_sub_type>
+		<device_sub_type>2</device_sub_type>
 		<poss_mesh_for_print>0</poss_mesh_for_print>
 		<fill_hole_marker_dis>4.5</fill_hole_marker_dis>
 		<norm_dot_prod_thr>0.0</norm_dot_prod_thr>
@@ -683,10 +683,10 @@
 		<show_prime_video>0</show_prime_video>
 		<modul_ex_ple_left_right/>
 		<modul_ex_ple_right_left/>
-		<is2X>false</is2X>
+		<is2X>true</is2X>
 		<have_texture_camera>0</have_texture_camera>
 		<use_save_mesh>false</use_save_mesh>
-		<isCH>false</isCH>
+		<isCH>true</isCH>
 	</common_para_config>
 	<stripe_cam_para_config>
 		<max_step>16</max_step>
